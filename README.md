@@ -1,7 +1,7 @@
 # Thermometry-Sensor-Instructions
 
 
-Starting with the empty circuit boards:
+## Starting with the empty circuit boards:
 
 Finished schematic:
 
@@ -29,7 +29,8 @@ Parts:
 | C1 | 0.1 uF Ethernet Cap | BC1084CT-ND | Light Blue circle |
 | MCU1 | 2x 24POS Recpt | SAM1093-24-ND | -- |
 
-Highlighted Schematic:
+
+## Highlighted Schematic:
 
 <img width="480" alt="Screen Shot 2022-07-24 at 1 06 48 AM" src="https://user-images.githubusercontent.com/108306069/180638238-5b6b8076-db8e-48e9-a57a-634a00a3c19e.png" >
 
@@ -38,7 +39,7 @@ Highlighted Schematic:
 
 
 
-Solder:
+## Solder:
 The order in that I added pieces (this is not the best order to go in).
 - 22 Ohm Resistors onto pads R1-R12, skipping R-13
 - 0 Ohm Resistor onto R-13 pad
@@ -70,6 +71,15 @@ The order in that I added pieces (this is not the best order to go in).
 |  | <img src = "https://user-images.githubusercontent.com/108306069/180639441-cf0101d0-a4c2-4110-ae81-d2ce6c5f3acc.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639509-22d139d0-4a20-4f01-860d-3ac06800104d.jpg" width="40%" height="40%" /> |
 
 
+
+## Finished Sensor:
+
+### V1 with old mini Controller:
+
+
+![20220713_084532](https://user-images.githubusercontent.com/108306069/180639728-da122901-7785-490f-8541-07e176c8003f.jpg)
+![20220713_084809](https://user-images.githubusercontent.com/108306069/180639732-4a652e38-5c96-459b-b6cc-5a22cece129e.jpg)
+![20220713_084820](https://user-images.githubusercontent.com/108306069/180639743-0a02138f-b131-4d3f-869e-5574912ddfaf.jpg)
 
 
 
