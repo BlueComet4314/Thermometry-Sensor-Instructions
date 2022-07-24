@@ -5,23 +5,37 @@ Starting with the empty circuit boards:
 
 Finished schematic:
 
-<img src="https://user-images.githubusercontent.com/108306069/180638077-1676d7af-37d4-4900-81e7-8d532505efff.png" width="40%" height="40%" />
+<img src="https://user-images.githubusercontent.com/108306069/180638077-1676d7af-37d4-4900-81e7-8d532505efff.png" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180638084-9f4401e8-8b92-4297-a38c-d2ef5e9d8e3c.jpg" width="30%" height="30%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/180638138-ed8431ed-e6fe-4d70-b511-20ef9f321969.jpg" width="20%" height="20%" /> <img src = "https://user-images.githubusercontent.com/108306069/180638139-28253d3c-6404-44e0-8641-dd005f827168.jpg" width="20%" height="20%" />
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/180638084-9f4401e8-8b92-4297-a38c-d2ef5e9d8e3c.jpg" width="30%" height="30%" />
 
-<img src = "https://user-images.githubusercontent.com/108306069/180638138-ed8431ed-e6fe-4d70-b511-20ef9f321969.jpg" width="20%" height="20%" />
-<img src = "https://user-images.githubusercontent.com/108306069/180638139-28253d3c-6404-44e0-8641-dd005f827168.jpg" width="20%" height="20%" />
+Parts:
+| LOC | Part | Digikey PN | Color on Schematic |
+| -- | -- | -- | -- |
+| J1 |  DB15 | LD15S33E4GV00LF-ND | yellow |
+| J2 | Barrel 2x5.5mm | CP-002A-ND | Dark Blue |
+|Teensy Conn| 24POS RCPT| SAM1093-24-ND| Orange |
+|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB | Purple |
+|Teensy header| 30POS 2.54mm | S1012EC-30-ND | Orange |
+|Teensy header| 6POS 2mm | 17-2842126-3-ND| Purple |
+| Ethernet Conn | 100 Base T | 1278-1052-ND | Red |
+| LCD Conn | 2x CONN HEADER 14POS | AE11367-ND| Green |
+| R1-12 | 22 Ohm 0805 | A126437CT-ND | -- |
+| R13 | 0 Ohm 0805 | A106066CT-ND | -- |
+| CP1 | 47 uF 1206 | ?? | Teal |
+| F1 | 1A Fuse | F6777CT-ND | Pink |
+| C1 | 0.1 uF Ethernet Cap | BC1084CT-ND | Light Blue circle |
+| MCU1 | 2x 24POS Recpt | SAM1093-24-ND | -- |
 
 Highlighted Schematic:
 
 <img width="480" alt="Screen Shot 2022-07-24 at 1 06 48 AM" src="https://user-images.githubusercontent.com/108306069/180638238-5b6b8076-db8e-48e9-a57a-634a00a3c19e.png" >
 
 
-<img width="417" alt="Screen Shot 2022-07-24 at 1 08 24 AM" src="https://user-images.githubusercontent.com/108306069/180638297-c3f823bd-0eec-4a62-8e48-fff99ad0ff64.png">
+<img width="417" alt="Screen Shot 2022-07-24 at 1 08 24 AM" src="https://user-images.githubusercontent.com/108306069/180638297-c3f823bd-0eec-4a62-8e48-fff99ad0ff64.png"> <img width="209" alt="Screen Shot 2022-07-24 at 1 08 46 AM" src="https://user-images.githubusercontent.com/108306069/180638304-716aab9d-0b48-4e20-99e5-422189077b5f.png">
 
-
-<img width="209" alt="Screen Shot 2022-07-24 at 1 08 46 AM" src="https://user-images.githubusercontent.com/108306069/180638304-716aab9d-0b48-4e20-99e5-422189077b5f.png">
 
 
 Solder:
@@ -46,32 +60,14 @@ The order in that I added pieces (this is not the best order to go in).
 
 
 
-Parts:
-| LOC | Part | Digikey PN | Color on Schematic |
-| -- | -- | -- | -- |
-| J1 |  DB15 | LD15S33E4GV00LF-ND | yellow |
-| J2 | Barrel 2x5.5mm | CP-002A-ND | Dark Blue |
-|Teensy Conn| 24POS RCPT| SAM1093-24-ND| Orange |
-|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB | Purple |
-|Teensy header| 30POS 2.54mm | S1012EC-30-ND | Orange |
-|Teensy header| 6POS 2mm | 17-2842126-3-ND| Purple |
-| Ethernet Conn | 100 Base T | 1278-1052-ND | Red |
-| LCD Conn | 2x CONN HEADER 14POS | AE11367-ND| Green |
-| R1-12 | 22 Ohm 0805 | A126437CT-ND | -- |
-| R13 | 0 Ohm 0805 | A106066CT-ND | -- |
-| CP1 | 47 uF 1206 | ?? | Teal |
-| F1 | 1A Fuse | F6777CT-ND | Pink |
-| C1 | 0.1 uF Ethernet Cap | BC1084CT-ND | Light Blue circle |
-| MCU1 | 2x 24POS Recpt | SAM1093-24-ND | -- |
-
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/180638956-a9f4992f-68ad-4474-b62a-6bd775c51de7.jpg" width="20%" height="20%" /> <img src = "https://user-images.githubusercontent.com/108306069/180638962-3a38320f-b663-4d13-9c31-de228481b4fa.jpg" width="20%" height="20%" /> 
 
 | Before | After |
 | -- | -- |
-| <img src = "https://user-images.githubusercontent.com/108306069/180639314-f5aa12a2-a3c6-4d54-afb0-247e3312ce83.jpg)" width="40%" height="40%" /> | <img src = "https://user-images.githubusercontent.com/108306069/180639360-1db0e3e9-5da4-40e8-9666-7f6b3f4f33b6.jpg)" width="40%" height="40%" /> |
-
+| <img src = "https://user-images.githubusercontent.com/108306069/180639314-f5aa12a2-a3c6-4d54-afb0-247e3312ce83.jpg" width="70%" height="70%" /> | <img src = "https://user-images.githubusercontent.com/108306069/180639360-1db0e3e9-5da4-40e8-9666-7f6b3f4f33b6.jpg" width="70%" height="70%" /> |
+|  | <img src = "https://user-images.githubusercontent.com/108306069/180639441-cf0101d0-a4c2-4110-ae81-d2ce6c5f3acc.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639509-22d139d0-4a20-4f01-860d-3ac06800104d.jpg" width="40%" height="40%" /> |
 
 
 
