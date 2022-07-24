@@ -66,15 +66,11 @@ Parts:
 
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/180638956-a9f4992f-68ad-4474-b62a-6bd775c51de7.jpg" width="40%" height="40%" />
+<img src = "https://user-images.githubusercontent.com/108306069/180638956-a9f4992f-68ad-4474-b62a-6bd775c51de7.jpg" width="20%" height="20%" /> <img src = "https://user-images.githubusercontent.com/108306069/180638962-3a38320f-b663-4d13-9c31-de228481b4fa.jpg" width="20%" height="20%" /> 
 
-<img src = "https://user-images.githubusercontent.com/108306069/180638962-3a38320f-b663-4d13-9c31-de228481b4fa.jpg" width="40%" height="40%" />
-
-
-<img src = "https://user-images.githubusercontent.com/108306069/180638978-26ecde32-c504-441b-afc5-753aada552ea.jpg" width="40%" height="40%" />
-
-
-<img src = "https://user-images.githubusercontent.com/108306069/180638983-dc6b66c1-6ae7-4ec6-842d-f2e0536c7d86.jpg" width="40%" height="40%" />
+| Before | After |
+| -- | -- |
+| <img src = "https://user-images.githubusercontent.com/108306069/180639314-f5aa12a2-a3c6-4d54-afb0-247e3312ce83.jpg)" width="40%" height="40%" /> | <img src = "https://user-images.githubusercontent.com/108306069/180639360-1db0e3e9-5da4-40e8-9666-7f6b3f4f33b6.jpg)" width="40%" height="40%" /> |
 
 
 
