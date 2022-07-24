@@ -13,7 +13,6 @@ Finished schematic:
 <img src = "https://user-images.githubusercontent.com/108306069/180638138-ed8431ed-e6fe-4d70-b511-20ef9f321969.jpg" width="20%" height="20%" />
 <img src = "https://user-images.githubusercontent.com/108306069/180638139-28253d3c-6404-44e0-8641-dd005f827168.jpg" width="20%" height="20%" />
 
-
 Highlighted Schematic:
 
 <img width="480" alt="Screen Shot 2022-07-24 at 1 06 48 AM" src="https://user-images.githubusercontent.com/108306069/180638238-5b6b8076-db8e-48e9-a57a-634a00a3c19e.png" >
@@ -48,22 +47,22 @@ The order in that I added pieces (this is not the best order to go in).
 
 
 Parts:
-| LOC | Part | Digikey PN |
-| -- | -- | -- |
-| J1 |  DB15 | LD15S33E4GV00LF-ND | 
-| J2 | Barrel 2x5.5mm | CP-002A-ND |
-|Teensy Conn| 24POS RCPT| SAM1093-24-ND|
-|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB |
-|Teensy header| 30POS 2.54mm | S1012EC-30-ND |
-|Teensy header| 6POS 2mm | 17-2842126-3-ND|
-| Ethernet Conn | 100 Base T | 1278-1052-ND |
-| LCD Conn | 2x CONN HEADER 14POS | AE11367-ND|
-| R1-12 | 22 Ohm 0805 | A126437CT-ND |
-| R13 | 0 Ohm 0805 | A106066CT-ND |
-| CP1 | 47 uF 1206 | ?? |
-| F1 | 1A Fuse | F6777CT-ND |
-| C1 | 0.1 uF Ethernet Cap | BC1084CT-ND |
-| MCU1 | 2x 24POS Recpt | SAM1093-24-ND |
+| LOC | Part | Digikey PN | Color on Schematic |
+| -- | -- | -- | -- |
+| J1 |  DB15 | LD15S33E4GV00LF-ND | yellow |
+| J2 | Barrel 2x5.5mm | CP-002A-ND | Dark Blue |
+|Teensy Conn| 24POS RCPT| SAM1093-24-ND| Orange |
+|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB | Purple |
+|Teensy header| 30POS 2.54mm | S1012EC-30-ND | Orange |
+|Teensy header| 6POS 2mm | 17-2842126-3-ND| Purple |
+| Ethernet Conn | 100 Base T | 1278-1052-ND | Red |
+| LCD Conn | 2x CONN HEADER 14POS | AE11367-ND| Green |
+| R1-12 | 22 Ohm 0805 | A126437CT-ND | -- |
+| R13 | 0 Ohm 0805 | A106066CT-ND | -- |
+| CP1 | 47 uF 1206 | ?? | Teal |
+| F1 | 1A Fuse | F6777CT-ND | Pink |
+| C1 | 0.1 uF Ethernet Cap | BC1084CT-ND | Light Blue circle |
+| MCU1 | 2x 24POS Recpt | SAM1093-24-ND | -- |
 
 
 
