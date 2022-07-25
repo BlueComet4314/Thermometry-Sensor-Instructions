@@ -84,7 +84,7 @@ The order in that I added pieces (this is not the best order to go in).
 <img src = "https://user-images.githubusercontent.com/108306069/180639728-da122901-7785-490f-8541-07e176c8003f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639732-4a652e38-5c96-459b-b6cc-5a22cece129e.jpg" width="30%" height="30%" />
 <img src = "https://user-images.githubusercontent.com/108306069/180639743-0a02138f-b131-4d3f-869e-5574912ddfaf.jpg" width="30%" height="30%" />
 
-###V2 with new minicontroller:
+### V2 with new minicontroller:
 
 <img src = "https://user-images.githubusercontent.com/108306069/180685188-c0f67bbc-1eb3-444f-8481-792b022677f2.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180685219-8be5ff90-ff56-4a7b-890c-3c6aa682cf0f.jpg" width="40%" height="40%" />
 
