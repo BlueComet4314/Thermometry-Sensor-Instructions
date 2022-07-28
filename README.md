@@ -106,11 +106,24 @@ The order in that I added pieces (this is not the best order to go in).
 
 #### MAX31856 - RTD Board
 - The RTD boards (in our version) were modified for a 3 wire configuration.
+- Initially, the connection line on the copper plates - between the 4 and 3 wire pads(image) - needs to be severed.
+  - Taking an exact-o knife, the copper line is cut/scraped away.
+
+<img src = "https://user-images.githubusercontent.com/108306069/181443437-a7d02452-e05f-4367-acda-826065b1d67f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/181443445-44dd36ed-dc8b-4a6f-8277-9e1c49840136.jpg" width="30%" height="30%" />
+
 
 | Before | After |
 | -- | -- |
 | <img src = "https://user-images.githubusercontent.com/108306069/180639314-f5aa12a2-a3c6-4d54-afb0-247e3312ce83.jpg" /> | <img src = "https://user-images.githubusercontent.com/108306069/180639360-1db0e3e9-5da4-40e8-9666-7f6b3f4f33b6.jpg" width="60%" height="60%" /> |
 |  | <img src = "https://user-images.githubusercontent.com/108306069/180639441-cf0101d0-a4c2-4110-ae81-d2ce6c5f3acc.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639509-22d139d0-4a20-4f01-860d-3ac06800104d.jpg" width="42%" height="42%" /> |
+
+
+
+- The two 3 wire pads need to then be soldered together
+
+(picture)
+
+Nothing needs to be changed for the BME or Thermocouple amplifiers
 
 
 
