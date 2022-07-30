@@ -43,33 +43,31 @@ Parts:
 
 
 
-## Solder:
+## Soldering:
 The order in that I added pieces (this is not the best order to go in).
-- 22 Ohm Resistors onto pads R1-R12, skipping R-13
-- 0 Ohm Resistor onto R-13 pad
-- DB15 Connector on the J1 pad
-- LCD Connectors on the ILI9341TFT1 and ILI9341TFT2 pads
-  - Make sure the keying slot is facing the right direction. On the main board, the slot should be facing toward the MAX31856 pads and away from the Teensy pad.
-  - On the small board, make sure the slot is facing away from the ILI9341TFT3 Through Holes.
-- The 1A Fuse on the F1 pad 
-- A 47 uF capacitor on CP1 pad, below the Fuse.
-- 0.1 uF Ethernet Capacitor on pad C1.
+- **22 Ohm Resistors** onto pads R1-R12, skipping R-13
+- **0 Ohm Resistor** onto R-13 pad
+- **DB15 Connector** on the J1 pad
+- **LCD Connectors** on the ILI9341TFT1 and ILI9341TFT2 pads
+  - Make sure the keying slot is facing the right direction. On the main board, the slot should be facing *toward* the MAX31865 pads and *away* from the Teensy pad.
+  - On the **small** board, make sure the slot is facing *away* from the ILI9341TFT3 Through Holes.
+- The **1A Fuse** on the F1 pad 
+- A **47 uF capacitor** on CP1 pad, below the Fuse.
+- **0.1 uF Ethernet Capacitor** on pad C1.
   - The name of the pad isn’t visible on the schematic; the capacitor is next to the Ethernet Plugin
-- An Ethernet plugin on the Teensy-Ethernet1 pad.
-  - The opening of the connector should also be facing away from the board.
-- A Black Barrel Power Jack connector on the J2 pad.
-  - Make sure that this connector is also facing the correct direction; the main connector should be facing away from the middle of the board
-- The Receptacle Connectors are placed on the long row of ThroughHole pins on the Teensy pad:
+- An **Ethernet plugin** on the Teensy-Ethernet1 pad.
+  - The opening of the connector should also be facing *away* from the board.
+- A **Black Barrel Power Jack connector** on the J2 pad.
+  - Make sure that this connector is also facing the correct direction; the main connector should be facing *away* from the middle of the board
+- The **Receptacle Connectors** are placed on the long row of ThroughHole pins on the Teensy pad:
 
 <img src = "https://user-images.githubusercontent.com/108306069/180638956-a9f4992f-68ad-4474-b62a-6bd775c51de7.jpg" width="40%" height="40%" /> 
 
-- Similarly, long connector headers (length 24) and smaller (3x2) connector headers will be soldered to the Teensy 4.1 board:
-  - The 3x2 connector has it's **shortest** side soldered to the Teensy
-  - The long 24 pin connector has it's **longest** side solder to the Teensy
+- Similarly, long **connector headers** (length 24) and smaller (3x2) connector headers will be soldered to the Teensy 4.1 board:
+  - The 3x2 connector has it's *shortest* side soldered to the Teensy
+  - The long 24 pin connector has it's *longest* side solder to the Teensy
 
 <img src = "https://user-images.githubusercontent.com/108306069/181919947-589803b9-3c0a-4296-adec-bf5b955ecb33.jpg" width="25%" height="25%" /> <img src = "https://user-images.githubusercontent.com/108306069/181919948-7f15019d-8140-42b7-aea9-99a95137dfb5.jpg" width="42%" height="42%" />
-
-
 
 
 - The pins (connected to the Teensy) will be put into the Recepticle connectors already soldered to the main board:
@@ -87,7 +85,7 @@ The order in that I added pieces (this is not the best order to go in).
 | Adafruit MAX31856 | Thermocouple Amplifier | 1528-1772-ND |
 | Adafruit BME 280 | Temperature, Humidity, Pressure | 1528-1359-ND |
 
-- Five Adafruit MAX 31865 boards (Resistance Temperature Detectors (RTDs) are soldered to their respective places along one end of the main board.
+- Five Adafruit MAX 31865 boards (Resistance Temperature Detectors (RTDs)) are soldered to their respective places along one end of the main board.
   - These for pin holes are normally where two wire clamps would go. However, instead, we are going to put 3 Connector headers here.  The MAX 31865 boards do not have Connectors that are wide enough for the 4 pins, so break apart the receptacle headers into singular pieces.
 
 
