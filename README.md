@@ -67,7 +67,10 @@ The order in that I added pieces (this is not the best order to go in).
   - The 3x2 connector has it's **shortest** side soldered to the Teensy
   - The long 24 pin connector has it's **longest** side solder to the Teensy
 
-(picture here)
+<img src = "https://user-images.githubusercontent.com/108306069/181919947-589803b9-3c0a-4296-adec-bf5b955ecb33.jpg" width="25%" height="25%" /> <img src = "https://user-images.githubusercontent.com/108306069/181919948-7f15019d-8140-42b7-aea9-99a95137dfb5.jpg" width="42%" height="42%" />
+
+
+
 
 - The pins (connected to the Teensy) will be put into the Recepticle connectors already soldered to the main board:
 
@@ -87,12 +90,17 @@ The order in that I added pieces (this is not the best order to go in).
 - Five Adafruit MAX 31865 boards (Resistance Temperature Detectors (RTDs) are soldered to their respective places along one end of the main board.
   - These for pin holes are normally where two wire clamps would go. However, instead, we are going to put 3 Connector headers here.  The MAX 31865 boards do not have Connectors that are wide enough for the 4 pins, so break apart the receptacle headers into singular pieces.
 
-(picture of individual pieces)
+
+<img src = "https://user-images.githubusercontent.com/108306069/181920039-1a44e52b-00bb-43bd-bdd3-d3d7f7bd06a8.jpg" width="25%" height="25%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/181920137-0a633a0c-13bc-499b-b7f6-5b4a706332b9.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/181920138-42bf636e-e0b3-4abb-a5d2-f194df4a10ec.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/181920141-11c5d22f-c9d0-45af-85e8-5ba06314fb83.jpg" width="40%" height="40%" />
+
+
 
 <img src = "https://user-images.githubusercontent.com/108306069/181175433-eba0cc57-0372-44fe-94a2-c6e2bdbae26a.jpg" width="35%" height="35%" />
 
 
-- Two Adafruit MAX31856 boards (Thermocouple Amplifiers) are solder to other side of board:
+- Two Adafruit MAX31856 boards (Thermocouple Amplifiers) are soldered to other side of board:
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/181175257-f38b23bc-bbe1-4071-92da-5e653a874c01.jpg" width="35%" height="35%" /> <img src = "https://user-images.githubusercontent.com/108306069/181175021-fc2dc400-9023-4525-9681-a0582e45d439.jpg" width="35%" height="35%" />
