@@ -21,7 +21,7 @@ Parts:
 | J1 |  DB15 | LD15S33E4GV00LF-ND | yellow |
 | J2 | Barrel 2x5.5mm | CP-002A-ND | Dark Blue |
 |Teensy Conn| 24POS RCPT| SAM1093-24-ND| Orange |
-|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB | Purple |
+|Teensy Conn| 6POS 2mm RCPT| WM20513-ND | Purple |
 |Teensy header| 30POS 2.54mm | S1012EC-30-ND | Orange |
 |Teensy header| 6POS 2mm | 17-2842126-3-ND| Purple |
 | Ethernet Conn | 100 Base T | 1278-1052-ND | Red |
