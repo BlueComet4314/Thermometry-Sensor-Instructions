@@ -1,6 +1,27 @@
 # Thermometry-Sensor-Instructions
 
 
+## Finished Sensor:
+
+### V1 with old mini Controller:
+
+
+<img src = "https://user-images.githubusercontent.com/108306069/180639728-da122901-7785-490f-8541-07e176c8003f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639732-4a652e38-5c96-459b-b6cc-5a22cece129e.jpg" width="30%" height="30%" />
+<img src = "https://user-images.githubusercontent.com/108306069/180639743-0a02138f-b131-4d3f-869e-5574912ddfaf.jpg" width="30%" height="30%" />
+
+### V2 with new minicontroller:
+
+<img src = "https://user-images.githubusercontent.com/108306069/180685188-c0f67bbc-1eb3-444f-8481-792b022677f2.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180685219-8be5ff90-ff56-4a7b-890c-3c6aa682cf0f.jpg" width="40%" height="40%" />
+
+### V3 with thermocouple and PT100 inputs
+
+- Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - ~77 Kelvin. 
+  - Small margin of error on TCPs +/- 3 Kelvin.
+
+<img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="40%" height="40%" />
+
+
+
 ## Starting with the empty circuit boards:
 
 Finished schematic:
@@ -133,24 +154,7 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 
 
 
-## Finished Sensor:
 
-### V1 with old mini Controller:
-
-
-<img src = "https://user-images.githubusercontent.com/108306069/180639728-da122901-7785-490f-8541-07e176c8003f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639732-4a652e38-5c96-459b-b6cc-5a22cece129e.jpg" width="30%" height="30%" />
-<img src = "https://user-images.githubusercontent.com/108306069/180639743-0a02138f-b131-4d3f-869e-5574912ddfaf.jpg" width="30%" height="30%" />
-
-### V2 with new minicontroller:
-
-<img src = "https://user-images.githubusercontent.com/108306069/180685188-c0f67bbc-1eb3-444f-8481-792b022677f2.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180685219-8be5ff90-ff56-4a7b-890c-3c6aa682cf0f.jpg" width="40%" height="40%" />
-
-### V3 with thermocouple and PT100 inputs
-
-- Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - ~77 Kelvin. 
-  - Small margin of error on TCPs +/- 3 Kelvin.
-
-<img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="40%" height="40%" />
 
 
 
