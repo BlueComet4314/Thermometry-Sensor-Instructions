@@ -1,25 +1,77 @@
-# Thermometry-Sensor-Instructions
+# Overview
+
+These sensor boards were built to read and display thermometry data. They were orignially used for an experiment made by LUX-ZEPLIN (LZ) to measure data within their cryogenic systems. Later, a group from the n Enriched Xenon Observatory (nEXO) group based their design (with permission) off of the group from LZ. This document details the process of creating the Thermometry Sensor boards for the nEXO experiment at the Stanford Linear Accelerator Center Laboratory (SLAC). The boards at nEXO are also used for cryogenic purposes inside of a cryogenic distillation column. 
+
+The Thermometry Boards are able to detect temperature, pressure, and humidity using five PT100 pads and two thermocouples. The pads are soldered to a small .5" circuit board and connected to the main Thermo board through a series of cables (which will be detailed out below). The small PT100 boards contain a 4-40 sized hole for a small screw, which will allow the boards to be attached to specific places inside of the cryogenic system (more into this later). 
+
+The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier boards. 
 
 
 
-## Finished Sensor:
+# Thermometry Sensor Instructions
 
-### V1 with old mini Controller:
 
+## Sensor Versions:
+
+### V1 with old test board:
 
 <img src = "https://user-images.githubusercontent.com/108306069/180639728-da122901-7785-490f-8541-07e176c8003f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639732-4a652e38-5c96-459b-b6cc-5a22cece129e.jpg" width="30%" height="30%" />
 <img src = "https://user-images.githubusercontent.com/108306069/180639743-0a02138f-b131-4d3f-869e-5574912ddfaf.jpg" width="30%" height="30%" />
 
-### V2 with new minicontroller:
 
-<img src = "https://user-images.githubusercontent.com/108306069/180685188-c0f67bbc-1eb3-444f-8481-792b022677f2.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/180685219-8be5ff90-ff56-4a7b-890c-3c6aa682cf0f.jpg" width="40%" height="40%" />
+### V2 with new test board:
 
-### V3 with thermocouple and PT100 inputs
+<img src = "https://user-images.githubusercontent.com/108306069/180685188-c0f67bbc-1eb3-444f-8481-792b022677f2.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/180685219-8be5ff90-ff56-4a7b-890c-3c6aa682cf0f.jpg" width="45%" height="45%" />
 
+### V3 with test thermocouples and Copper block inputs
+
+<img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="50%" height="50%" />
+
+(picture of copper bl
+
+## V4 - Finished (Final) Board:
+
+- Completed PT100 pads/circuit boards and two thermocouples
+
+<img src = "https://user-images.githubusercontent.com/108306069/183540359-ea371047-1c70-486d-84a8-376f889c4bae.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/183540362-a6e5615e-7300-4030-a3be-22b11449a82e.jpg" width="45%" height="45%" />
+
+
+### Room Temp Test
+
+- With PT100 inputs and short Thermocouples
+
+#### readings:
+
+| Sensor | 1st Reading | 2nd Reading | 3rd Reading | Actual temperature | 
+| -- | -- | -- | -- | -- |
+| RTD 1 | 296.58 K | 296.48 K | 296.31 K |  | 
+| RTD 2 | 295.57 K | 295.54 K | 295.64 K |  |
+| RTD 3 | 296.08 K | 296.11 K | 296.42 K |  |
+| RTD 4 | 296.01 K | 295.98 K | 295.87 K |  |
+| RTD 5 | 295.98 K | 295.94 K | 296.04 K |  |
+| TC 1 | 295.45 K | 295.53 K | 295.86 K |  |
+| TC 2 | 295.09 K | 295.11 K | 295.17 K |  |
+
+
+### Liquid Nitrogen Test
+
+- With Original Copper PT100 blocks and long Thermocouples
 - Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - ~77 Kelvin. 
-  - Small margin of error on TCPs +/- 3 Kelvin.
+  - Small margin of error on TCs +/- 3 Kelvin.
 
-<img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="40%" height="40%" />
+Liquid Nitrogen ranfes from 63 K - 77.2 Kelvin
+
+#### readings:
+
+| Sensor | 1st Reading | 2nd Reading | 3rd Reading | Actual temperature | 
+| -- | -- | -- | -- | -- |
+| RTD 1 | 76.00 K | 75.97 K | 76.06 K | 77.2 K |
+| RTD 2 | 76.18 K | 76.15 K | 76.27 K | 77.2 K |
+| RTD 3 | 76.09 K | 76.09 K | 76.18 K | 77.2 K |
+| RTD 4 | 76.03 K | 76.03 K | 76.09 K | 77.2 K |
+| RTD 5 | 75.75 K | 75.69 K | 75.72 K | 77.2 K |
+| TC 1 | 81.86 K | 81.72 K | 82.15 K | 77.2 K |
+| TC 2 | 80.08 K | 80.31 K | 80.28 K | 77.2 K |
 
 
 
