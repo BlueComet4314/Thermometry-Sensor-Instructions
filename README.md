@@ -7,6 +7,58 @@ The Thermometry Boards are able to detect temperature, pressure, and humidity us
 The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier boards. 
 
 
+# Accessories used
+
+
+### Thermometry Sensor:
+
+#### Normal parts
+| LOC | Part | Digikey PN |
+| -- | -- | -- |
+| J1 |  DB15 | LD15S33E4GV00LF-ND |
+| J2 | Barrel 2x5.5mm | CP-002A-ND |
+|Teensy Conn| 24POS RCPT| SAM1093-24-ND|
+|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB |
+|Teensy header| 30POS 2.54mm | S1012EC-30-ND |
+|Teensy header| 6POS 2mm | WM20513-ND |
+| Ethernet Conn | 100 Base T | 1278-1052-ND |
+| LCD Conn | 2x CONN HEADER 14POS | AE11367-ND|
+| R1-12 | 22 Ohm 0805 | A126437CT-ND |
+| R13 | 0 Ohm 0805 | A106066CT-ND |
+| CP1 | 47 uF 1206 | ?? |
+| F1 | 1A Fuse | F6777CT-ND |
+| C1 | 0.1 uF Ethernet Cap | BC1084CT-ND |
+| MCU1 | 2x 24POS Recpt | SAM1093-24-ND |
+
+#### Sensor Boards
+| Board Type | Purpose | Digikey Pin |
+| -- | -- | -- |
+| Adafruit MAX31865 | RTD | 1528-1804-ND |
+| Adafruit MAX31856 | Thermocouple Amplifier | 1528-1772-ND |
+| Adafruit BME 280 | Temperature, Humidity, Pressure | 1528-1359-ND |
+
+### Microcontroller
+
+Teensy 4.1 -
+  - 1568-DEV-16771-ND
+
+### PT100 Boards
+
+
+### Equipment
+
+- Need a USBC cable for power and uploading arduino software onto microcontroller
+- An Ethernet Cable
+- Computer or laptop compatible with Arduino software
+- Soldering Iron
+- 
+
+
+
+
+
+
+
 
 # Thermometry Sensor Instructions
 
@@ -189,28 +241,52 @@ The order in that I added pieces (this is not the best order to go in).
 - Initially, the connection line on the copper plates - between the 4 and 3 wire pads(image) - needs to be severed.
   - Taking an exact-o knife, the copper line is cut/scraped away.
 
+##### Before
+
+<img src = "https://user-images.githubusercontent.com/108306069/183705753-a459558c-e3a5-4364-98cc-3f706cf5fabd.jpg" width="50%" height="50%"/> 
+
+
 <img src = "https://user-images.githubusercontent.com/108306069/181443437-a7d02452-e05f-4367-acda-826065b1d67f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/181443445-44dd36ed-dc8b-4a6f-8277-9e1c49840136.jpg" width="30%" height="30%" />
 
 
-| Before | After |
-| -- | -- |
-| <img src = "https://user-images.githubusercontent.com/108306069/180639314-f5aa12a2-a3c6-4d54-afb0-247e3312ce83.jpg" /> | <img src = "https://user-images.githubusercontent.com/108306069/180639360-1db0e3e9-5da4-40e8-9666-7f6b3f4f33b6.jpg" width="60%" height="60%" /> |
-|  | <img src = "https://user-images.githubusercontent.com/108306069/180639441-cf0101d0-a4c2-4110-ae81-d2ce6c5f3acc.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639509-22d139d0-4a20-4f01-860d-3ac06800104d.jpg" width="42%" height="42%" /> |
+##### After
+<img src = "https://user-images.githubusercontent.com/108306069/183706656-addcf999-cf3f-4ec3-9eaa-95f944c6f043.jpg" width="60%" height="60%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/183706736-f2eb818f-f915-4d97-beaa-b10d0270bd2a.jpg" width="60%" height="60%" /> 
+<img src = "https://user-images.githubusercontent.com/108306069/183706820-2c4dccbe-210b-4160-a0f3-18130e1b46a4.jpg" width="50%" height="50%" /> 
 
 
 
 - The two 3 wire pads need to then be soldered together
 
-(picture)
+<img src = "https://user-images.githubusercontent.com/108306069/183702550-97961d95-3650-4c10-a858-08f2cdb1fe40.jpg" width="50%" height="50%" />
+
 
 Nothing needs to be changed for the BME or Thermocouple amplifiers
 
 
+# Casing
+
+
+# DB15 Layout
+
+# Test Board
+
+# Test Procedure
 
 
 
+# Set-up
+
+## Final images
+
+## What it's for
+
+## Flange
 
 
+
+# Trouble Shooting
 
 
 
