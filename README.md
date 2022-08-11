@@ -51,7 +51,8 @@ Teensy 4.1 -
 - An Ethernet Cable
 - Computer or laptop compatible with Arduino software
 - Soldering Iron
-- 
+- tweezers
+- needle nose pliers
 
 
 
