@@ -1,6 +1,6 @@
 # Table of Contents
 
-<u>** Intro **</u>
+<u>**Intro**</u>
 - [Overview of Thermometry Sensors](#overview)
 - [Accessories used](#accessories-used)
 - [Sensor Board Versions](#sensor-versions)
@@ -16,7 +16,20 @@
 <u>**Instructions**</u>
 
 - [Thermometry Board](#instructions---thermometry-sensor)
-- 
+- [Thermocouples](#thermocouples)
+- [PT100 (RTD) Boards](#pt100-rtd-boards)
+- [3 Wire](#wiring)
+- [casing](#casing)
+- [Layout for DB15 connector](#db15-layout)
+- [Test Board](#test-board)
+
+
+<u>**Final Documentation**</u>
+
+- [Set-up Instructions](#set-up)
+- [Final Images](#final-images)
+- [Flange](#flange)
+- [Trouble Shooting](#trouble-shooting)
 
 
 
@@ -296,13 +309,13 @@ The order in that I added pieces (this is not the best order to go in).
   - These for pin holes are normally where two wire clamps would go. However, instead, we are going to put 3 Connector headers here.  The MAX 31865 boards do not have Connectors that are wide enough for the 4 pins, so break apart the receptacle headers into singular pieces.
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/181920039-1a44e52b-00bb-43bd-bdd3-d3d7f7bd06a8.jpg" width="25%" height="25%" />
+<img src = "https://user-images.githubusercontent.com/108306069/181920039-1a44e52b-00bb-43bd-bdd3-d3d7f7bd06a8.jpg" width="55%" height="55%" />
 
  <img src = "https://user-images.githubusercontent.com/108306069/181920138-42bf636e-e0b3-4abb-a5d2-f194df4a10ec.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/181920141-11c5d22f-c9d0-45af-85e8-5ba06314fb83.jpg" width="40%" height="40%" />
 
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/181175433-eba0cc57-0372-44fe-94a2-c6e2bdbae26a.jpg" width="35%" height="35%" />
+<img src = "https://user-images.githubusercontent.com/108306069/181175433-eba0cc57-0372-44fe-94a2-c6e2bdbae26a.jpg" width="50%" height="50%" />
 
 
 - Two Adafruit MAX31856 boards (Thermocouple Amplifiers) are soldered to other side of board:
@@ -313,8 +326,8 @@ The order in that I added pieces (this is not the best order to go in).
 
 - One BME 280 Board (Temperature, Humidity, Pressure):
 
-<img src = "https://user-images.githubusercontent.com/108306069/181176123-2502de2a-f2b0-4295-82b8-a4fbc86d7f7d.jpg" width="35%" height="35%" />
-<img src = "https://user-images.githubusercontent.com/108306069/181176235-8fb24f9e-967a-4424-92e5-b60690b69af9.jpg" width="30%" height="30%" />
+<img src = "https://user-images.githubusercontent.com/108306069/181176123-2502de2a-f2b0-4295-82b8-a4fbc86d7f7d.jpg" width="45%" height="45%" />
+<img src = "https://user-images.githubusercontent.com/108306069/181176235-8fb24f9e-967a-4424-92e5-b60690b69af9.jpg" width="45%" height="45%" />
 
 
 ## MAX31856 - RTD Board
@@ -368,11 +381,10 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 
 # Set-up
 
-## Final images
+# Final images
 
-## What it's for
 
-## Flange
+# Flange
 
 
 
