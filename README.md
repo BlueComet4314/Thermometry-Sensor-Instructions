@@ -87,6 +87,7 @@ Teensy 4.1 -
 
 <img src = "https://user-images.githubusercontent.com/108306069/183540359-ea371047-1c70-486d-84a8-376f889c4bae.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/183540362-a6e5615e-7300-4030-a3be-22b11449a82e.jpg" width="45%" height="45%" />
 
+## Tests
 
 ### Room Temp Test
 
@@ -124,6 +125,62 @@ Liquid Nitrogen ranfes from 63 K - 77.2 Kelvin
 | RTD 5 | 75.75 K | 75.69 K | 75.72 K | 77.2 K |
 | TC 1 | 81.86 K | 81.72 K | 82.15 K | 77.2 K |
 | TC 2 | 80.08 K | 80.31 K | 80.28 K | 77.2 K |
+
+
+### Cold Test - Inside vacuum for nEXO Distillation Column
+
+#### Thermosiphon set up:
+
+(take better photo if possible)
+
+<img src = "https://user-images.githubusercontent.com/108306069/184038434-a6cbc5ee-32a0-496f-91f1-35d18373e046.jpg" width="60%" height="60%" />
+
+The thermosiphon acts as an evaporator for the Liquid Xenon Cell in which it is located. The thermosiphon will be pumping Liquid Nitrogen through it's main two tubes connected at the top:
+
+<img src = "https://user-images.githubusercontent.com/108306069/184044204-3818bdc9-bebf-4102-854a-fe845508ea35.jpg" width="60%" height="60%" />
+
+Once the entire distillaiton column is completed, Gaseous Xenon will be pumped into the main chamber (where the Thermosiphon is located) inside of a smaller enclosed space. This is attached directly below the thermosiphon.
+
+
+PT100 sensors are screwed into specific places on the thermosiphon. To test, we used PT100 sensor blocks used by a different experiment - LZ. We compared the new PT100s (RTDs) to the previous ones - with the knowledge that LZ's worked - in order to discern any unusual readings from the new PT100s
+
+There are two PT100's from LZ, and four PT100s from nEXO. From now on, I will label the new PT100s as RTD, and the old RTDs as LZ. They are labeled on the Thermosiphon as shown:
+
+##### Front Side view:
+
+<img src="https://user-images.githubusercontent.com/108306069/184040527-e4ccb5d4-3682-4ab1-801c-1d8b744ef3c8.png" width="60%" height="60%" />
+
+##### Back Side view:
+
+<img src="https://user-images.githubusercontent.com/108306069/184040604-15123de5-772b-485e-8ff4-fd65ef4b4c60.png" width="60%" height="60%" />
+
+LZ1 and RTD 4 are in parallel with each other on the Aluminium block - They should be reading relatively the same temperatures.
+LZ2 and RTD 1 are also in parallel with each other on the Copper block - They should be reading the same temperatures as well.
+
+#### **Note:**
+
+<img src = "https://user-images.githubusercontent.com/108306069/184043248-99a460e7-974e-4453-9f7a-95cef09b9bd0.jpg" width="60%" height="60%" />
+
+- The *top* of the Thermosiphon - (Copper block) is where the cool Liquid Nitrogen will enter, this is the coldest area
+    -  RTDs 1 and 2, and LZ 2 are located here
+- The *very bottom* of the block (aluminium block) is where the heater is located - the warmest area.
+    - RTDs 3 and 4, and LZ 1 are located here
+
+#### Set Thermosiphon temperature at 170 K	(Aluminium block).
+
+| PT100 |	Measurement (K) |
+| -- | -- |
+| RTD1	| 158.16 |
+| RTD2	| 147.29 |
+| RTD3	| 169.99 |
+| RTD4	| 170.31 |
+| -- | -- |
+| LZ1 |	170.83 |
+| LZ2 |	157.61 |
+
+- This is very promising information - RTDs 3 and 4, and LZ 1 are located directly on the heater, reading near exactly 170 K. In addition, LZ1 and RTD4 sensor readings are very close to each other - roughly .5 K apart from one another
+
+
 
 
 
