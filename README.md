@@ -1,11 +1,24 @@
 # Table of Contents
 
+<u>** Intro **</u>
 - [Overview of Thermometry Sensors](#overview)
 - [Accessories used](#accessories-used)
-- [Thermometry Board Instructions](#thermometry-sensor-instructions)
-  
-   - [Test data](#tests)
-   -
+- [Sensor Board Versions](#sensor-versions)
+- [Test data](#tests)
+    
+    - [Room Temperature Test](#u-room-temp-test-u)
+    - [Liquid Nitrogen Test](#u-liquid-nitrogen-test-u)
+    - [Vacuum Test](#u-cold-test---inside-vacuum-for-nexo-distillation-column-u)
+     
+      - [Thermosiphon Set up](#thermosiphon-set-up)
+
+
+<u>**Instructions**</u>
+
+- [Thermometry Board](#instructions---thermometry-sensor)
+- 
+
+
 
 
 # Overview
@@ -175,7 +188,7 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 - The *very bottom* of the block (aluminium block) is where the heater is located - the warmest area.
     - RTDs 3 and 4, and LZ 1 are located here
 
-#### Set Thermosiphon temperature at 170 K	(Aluminium block).
+### Set Thermosiphon temperature at 170 K	(Aluminium block).
 
 | PT100 |	Measurement (K) |
 | -- | -- |
@@ -193,7 +206,9 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 
 
 
-## Starting with the empty circuit boards:
+# Instructions: 
+
+# -- Thermometry Sensor
 
 Finished schematic:
 
@@ -302,12 +317,12 @@ The order in that I added pieces (this is not the best order to go in).
 <img src = "https://user-images.githubusercontent.com/108306069/181176235-8fb24f9e-967a-4424-92e5-b60690b69af9.jpg" width="30%" height="30%" />
 
 
-#### MAX31856 - RTD Board
+## MAX31856 - RTD Board
 - The RTD boards (in our version) were modified for a 3 wire configuration.
 - Initially, the connection line on the copper plates - between the 4 and 3 wire pads(image) - needs to be severed.
   - Taking an exact-o knife, the copper line is cut/scraped away.
 
-##### Before
+## Before
 
 <img src = "https://user-images.githubusercontent.com/108306069/183705753-a459558c-e3a5-4364-98cc-3f706cf5fabd.jpg" width="50%" height="50%"/> 
 
@@ -315,7 +330,7 @@ The order in that I added pieces (this is not the best order to go in).
 <img src = "https://user-images.githubusercontent.com/108306069/181443437-a7d02452-e05f-4367-acda-826065b1d67f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/181443445-44dd36ed-dc8b-4a6f-8277-9e1c49840136.jpg" width="30%" height="30%" />
 
 
-##### After
+## After
 <img src = "https://user-images.githubusercontent.com/108306069/183706656-addcf999-cf3f-4ec3-9eaa-95f944c6f043.jpg" width="60%" height="60%" />
 
 <img src = "https://user-images.githubusercontent.com/108306069/183706736-f2eb818f-f915-4d97-beaa-b10d0270bd2a.jpg" width="60%" height="60%" /> 
@@ -325,18 +340,27 @@ The order in that I added pieces (this is not the best order to go in).
 
 - The two 3 wire pads need to then be soldered together
 
+
+
 <img src = "https://user-images.githubusercontent.com/108306069/183702550-97961d95-3650-4c10-a858-08f2cdb1fe40.jpg" width="50%" height="50%" />
 
 
 Nothing needs to be changed for the BME or Thermocouple amplifiers
 
+# -- Thermocouples
 
-# Casing
+
+# -- PT100 (RTD) Boards
+
+# -- Wiring
 
 
-# DB15 Layout
+# -- Casing
 
-# Test Board
+
+# -- DB15 Layout
+
+# -- Test Board
 
 # Test Procedure
 

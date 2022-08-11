@@ -23,3 +23,11 @@ git fetch
 git pull
 
 git add -u
+
+
+QUICK FORMATING
+
+<u>****</u>
+****
+<u></u>
+
