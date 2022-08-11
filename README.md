@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Overview of Thermometry Sensors](#overview)
+- [Accessories used](#accessories-used)
+- [Thermometry Board Instructions](#thermometry-sensor-instructions)
+  
+   - [Test data](#tests)
+   -
+
+
 # Overview
 
 These sensor boards were built to read and display thermometry data. They were orignially used for an experiment made by LUX-ZEPLIN (LZ) to measure data within their cryogenic systems. Later, a group from the n Enriched Xenon Observatory (nEXO) group based their design (with permission) off of the group from LZ. This document details the process of creating the Thermometry Sensor boards for the nEXO experiment at the Stanford Linear Accelerator Center Laboratory (SLAC). The boards at nEXO are also used for cryogenic purposes inside of a cryogenic distillation column. 
@@ -10,9 +20,9 @@ The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier
 # Accessories used
 
 
-### Thermometry Sensor:
+## Thermometry Sensor:
 
-#### Normal parts
+### - Normal parts
 | LOC | Part | Digikey PN |
 | -- | -- | -- |
 | J1 |  DB15 | LD15S33E4GV00LF-ND |
@@ -30,22 +40,22 @@ The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier
 | C1 | 0.1 uF Ethernet Cap | BC1084CT-ND |
 | MCU1 | 2x 24POS Recpt | SAM1093-24-ND |
 
-#### Sensor Boards
+### - Sensor Boards
 | Board Type | Purpose | Digikey Pin |
 | -- | -- | -- |
 | Adafruit MAX31865 | RTD | 1528-1804-ND |
 | Adafruit MAX31856 | Thermocouple Amplifier | 1528-1772-ND |
 | Adafruit BME 280 | Temperature, Humidity, Pressure | 1528-1359-ND |
 
-### Microcontroller
+### - Microcontroller
 
 Teensy 4.1 -
   - 1568-DEV-16771-ND
 
-### PT100 Boards
+### - PT100 Boards
 
 
-### Equipment
+### - Equipment
 
 - Need a USBC cable for power and uploading arduino software onto microcontroller
 - An Ethernet Cable
@@ -61,40 +71,38 @@ Teensy 4.1 -
 
 
 
-# Thermometry Sensor Instructions
+# Sensor Versions
 
 
-## Sensor Versions:
-
-### V1 with old test board:
+## <u> V1 with old test board: </u>
 
 <img src = "https://user-images.githubusercontent.com/108306069/180639728-da122901-7785-490f-8541-07e176c8003f.jpg" width="30%" height="30%" /> <img src = "https://user-images.githubusercontent.com/108306069/180639732-4a652e38-5c96-459b-b6cc-5a22cece129e.jpg" width="30%" height="30%" />
 <img src = "https://user-images.githubusercontent.com/108306069/180639743-0a02138f-b131-4d3f-869e-5574912ddfaf.jpg" width="30%" height="30%" />
 
 
-### V2 with new test board:
+## <u> V2 with new test board: </u>
 
 <img src = "https://user-images.githubusercontent.com/108306069/180685188-c0f67bbc-1eb3-444f-8481-792b022677f2.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/180685219-8be5ff90-ff56-4a7b-890c-3c6aa682cf0f.jpg" width="45%" height="45%" />
 
-### V3 with test thermocouples and Copper block inputs
+## <u> V3 with test thermocouples and Copper block inputs </u>
 
 <img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="50%" height="50%" />
 
-(picture of copper bl
+(picture of copper blocks)
 
-## V4 - Finished (Final) Board:
+## <u> V4 - Finished (Final) Board: </u>
 
 - Completed PT100 pads/circuit boards and two thermocouples
 
 <img src = "https://user-images.githubusercontent.com/108306069/183540359-ea371047-1c70-486d-84a8-376f889c4bae.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/183540362-a6e5615e-7300-4030-a3be-22b11449a82e.jpg" width="45%" height="45%" />
 
-## Tests
+# Tests
 
-### Room Temp Test
+## <u> Room Temp Test </u>
 
 - With PT100 inputs and short Thermocouples
 
-#### readings:
+### readings:
 
 | Sensor | 1st Reading | 2nd Reading | 3rd Reading | Actual temperature | 
 | -- | -- | -- | -- | -- |
@@ -107,7 +115,7 @@ Teensy 4.1 -
 | TC 2 | 295.09 K | 295.11 K | 295.17 K |  |
 
 
-### Liquid Nitrogen Test
+## <u> Liquid Nitrogen Test </u>
 
 - With Original Copper PT100 blocks and long Thermocouples
 - Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - ~77 Kelvin. 
@@ -115,7 +123,7 @@ Teensy 4.1 -
 
 Liquid Nitrogen ranfes from 63 K - 77.2 Kelvin
 
-#### readings:
+###  Readings:
 
 | Sensor | 1st Reading | 2nd Reading | 3rd Reading | Actual temperature | 
 | -- | -- | -- | -- | -- |
@@ -128,11 +136,11 @@ Liquid Nitrogen ranfes from 63 K - 77.2 Kelvin
 | TC 2 | 80.08 K | 80.31 K | 80.28 K | 77.2 K |
 
 
-### Cold Test - Inside vacuum for nEXO Distillation Column
+## <u> Cold Test - Inside vacuum for nEXO Distillation Column </u>
 
-#### Thermosiphon set up:
+### Thermosiphon set up:
 
-(take better photo if possible)
+
 
 <img src = "https://user-images.githubusercontent.com/108306069/184038434-a6cbc5ee-32a0-496f-91f1-35d18373e046.jpg" width="60%" height="60%" />
 

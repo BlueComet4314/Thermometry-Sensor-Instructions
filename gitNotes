@@ -1,0 +1,25 @@
+
+TO EDIT REPO
+*edit files*
+git add *
+git commit -m "message here"
+git push
+
+TO UPDATE REPO ON LAPTOP
+git pull
+
+
+
+
+
+
+
+
+
+
+
+
+git fetch
+git pull
+
+git add -u
