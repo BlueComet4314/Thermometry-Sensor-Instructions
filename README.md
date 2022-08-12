@@ -42,6 +42,7 @@ The Thermometry Boards are able to detect temperature, pressure, and humidity us
 
 The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier boards. 
 
+[Back to Top](#table-of-contents)
 
 # Accessories used
 
@@ -96,6 +97,7 @@ Teensy 4.1 -
 
 
 
+[Back to Top](#table-of-contents)
 
 # Sensor Versions
 
@@ -122,6 +124,8 @@ Teensy 4.1 -
 
 <img src = "https://user-images.githubusercontent.com/108306069/183540359-ea371047-1c70-486d-84a8-376f889c4bae.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/183540362-a6e5615e-7300-4030-a3be-22b11449a82e.jpg" width="45%" height="45%" />
 
+
+[Back to Top](#table-of-contents)
 # Tests
 
 ## <u> Room Temp Test </u>
@@ -218,6 +222,7 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 
 
 
+[Back to Top](#table-of-contents)
 
 # Instructions: 
 
@@ -253,7 +258,7 @@ Parts:
 | C1 | 0.1 uF Ethernet Cap | BC1084CT-ND | Light Blue circle |
 | MCU1 | 2x 24POS Recpt | SAM1093-24-ND | -- |
 
-
+[Back to Top](#table-of-contents)
 ## Highlighted Schematic:
 
 <img width="480" alt="Screen Shot 2022-07-24 at 1 06 48 AM" src="https://user-images.githubusercontent.com/108306069/180638238-5b6b8076-db8e-48e9-a57a-634a00a3c19e.png" >
