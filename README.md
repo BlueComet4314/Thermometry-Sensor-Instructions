@@ -15,11 +15,11 @@
 
 <u>**Instructions**</u>
 
-- [Thermometry Board](#instructions---thermometry-sensor)
+- [Thermometry Sensor](#thermometry-sensor)
 - [Thermocouples](#thermocouples)
 - [PT100 (RTD) Boards](#pt100-rtd-boards)
-- [3 Wire](#wiring)
-- [casing](#casing)
+- [Wiring](#wiring)
+- [Casing](#casing)
 - [Layout for DB15 connector](#db15-layout)
 - [Test Board](#test-board)
 
