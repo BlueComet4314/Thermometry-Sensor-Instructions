@@ -419,26 +419,60 @@ Full sensor with long thermocouples:
 
 # -- PT100 (RTD) Boards
 
+These boards were designed to measure and read out temperatures taken from a PT100 sensor, which is transmitted to the Adafruit MAX 31865 boards.
 
-![20220801_152202](https://user-images.githubusercontent.com/108306069/184798239-fb192395-9d5d-4da7-83e9-6dc8dbcd7420.jpg)
-![20220801_152257](https://user-images.githubusercontent.com/108306069/184798241-0bbd25b9-b909-4962-983e-b0059b872fcb.jpg)
-![20220801_152323](https://user-images.githubusercontent.com/108306069/184798242-a41971a1-3661-47c6-b173-a4070373a6c7.jpg)
-![20220801_152336](https://user-images.githubusercontent.com/108306069/184798243-900d006e-df9b-4ceb-81c1-b156dcc14dbd.jpg)
-![20220801_152518](https://user-images.githubusercontent.com/108306069/184798244-b7bac9e2-b7d5-40ac-bbb6-55a04a2c51d4.jpg)
-![20220801_152522](https://user-images.githubusercontent.com/108306069/184798245-7f464741-0f0c-41e6-a66d-0577741e8255.jpg)
-![20220801_154311](https://user-images.githubusercontent.com/108306069/184798246-4e013e32-0c95-4a86-936d-31fb06b9b0be.jpg)
-![20220802_111340](https://user-images.githubusercontent.com/108306069/184798247-97b44e98-79d8-4d36-9f35-07704dedc6bc.jpg)
-![20220802_111439](https://user-images.githubusercontent.com/108306069/184798248-2f14c7f9-02a8-44b2-96e8-5838653523e2.jpg)
-![20220802_111524](https://user-images.githubusercontent.com/108306069/184798250-efc112f6-208a-4ca2-93cb-04ed21375a96.jpg)
-![20220802_111536](https://user-images.githubusercontent.com/108306069/184798253-8b540f9c-14ed-4fb1-9387-312c0a8043bb.jpg)
-![20220802_111555](https://user-images.githubusercontent.com/108306069/184798254-52c8c02e-8b04-428b-8215-11323210e509.jpg)
-![20220802_145414](https://user-images.githubusercontent.com/108306069/184798255-164ce5cf-6c33-44c3-a01d-942c3d9cd700.jpg)
-![20220802_145436](https://user-images.githubusercontent.com/108306069/184798256-335c2450-7c80-474a-94a2-6643f4cf7475.jpg)
-![20220802_145440](https://user-images.githubusercontent.com/108306069/184798258-bb97a8a4-cba2-403e-8e52-9b3c1d01a697.jpg)
-![20220802_145454](https://user-images.githubusercontent.com/108306069/184798260-c2317e7e-282b-4c94-b463-5d3f2655efab.jpg)
-![20220802_145513](https://user-images.githubusercontent.com/108306069/184798261-e6a00067-6130-4e04-b76c-b88df7d5d8cb.jpg)
-![20220802_145522](https://user-images.githubusercontent.com/108306069/184798262-79985214-8987-45cd-a599-e24f5544ab8b.jpg)
-<img src="https://user-images.githubusercontent.com/108306069/184798263-ab4ef19c-5ebb-42a2-ac35-c9d8b32cce67.png">
+
+### Boards:
+
+<img src = "https://user-images.githubusercontent.com/108306069/184798246-4e013e32-0c95-4a86-936d-31fb06b9b0be.jpg" width="48%" height="48%" />
+
+### Sensor:
+
+
+
+## Parts:
+
+| Part | Store | Pin |
+| -- | -- | -- |
+| PT100 - RTD | Digikey | ?? |
+| Qwiic JST Connector | Mouser Electronics | 474-PRT-16766 |
+| 4 Position Cable | Digikey | 1568-PRT-17257-ND |
+
+
+
+
+
+comparisons:
+
+with orignial
+<img src = "https://user-images.githubusercontent.com/108306069/184798239-fb192395-9d5d-4da7-83e9-6dc8dbcd7420.jpg" width="48%" height="48%" />
+
+with penny:
+
+<img src = "https://user-images.githubusercontent.com/108306069/184798241-0bbd25b9-b909-4962-983e-b0059b872fcb.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798242-a41971a1-3661-47c6-b173-a4070373a6c7.jpg" width="48%" height="48%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/184798243-900d006e-df9b-4ceb-81c1-b156dcc14dbd.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798244-b7bac9e2-b7d5-40ac-bbb6-55a04a2c51d4.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798245-7f464741-0f0c-41e6-a66d-0577741e8255.jpg" width="48%" height="48%" />
+
+
+
+completed
+
+
+<img src = "https://user-images.githubusercontent.com/108306069/184798247-97b44e98-79d8-4d36-9f35-07704dedc6bc.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798250-efc112f6-208a-4ca2-93cb-04ed21375a96.jpg" width="48%" height="48%" />
+
+back <img src = "https://user-images.githubusercontent.com/108306069/184798253-8b540f9c-14ed-4fb1-9387-312c0a8043bb.jpg" width="48%" height="48%" />
+
+
+side <img src = "https://user-images.githubusercontent.com/108306069/184798254-52c8c02e-8b04-428b-8215-11323210e509.jpg" width="48%" height="48%" />
+
+full comparisons:
+
+<img src = "https://user-images.githubusercontent.com/108306069/184798255-164ce5cf-6c33-44c3-a01d-942c3d9cd700.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798256-335c2450-7c80-474a-94a2-6643f4cf7475.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798258-bb97a8a4-cba2-403e-8e52-9b3c1d01a697.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798260-c2317e7e-282b-4c94-b463-5d3f2655efab.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798261-e6a00067-6130-4e04-b76c-b88df7d5d8cb.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798262-79985214-8987-45cd-a599-e24f5544ab8b.jpg" width="48%" height="48%" />
+
+<img src="https://user-images.githubusercontent.com/108306069/184798263-ab4ef19c-5ebb-42a2-ac35-c9d8b32cce67.png" width="70%" height="70%" />
 
 
 
@@ -447,13 +481,30 @@ Full sensor with long thermocouples:
 
 # -- Wiring
 
-![20220804_133301](https://user-images.githubusercontent.com/108306069/184798452-a2e35591-c14f-439d-8de4-ad9fd6077813.jpg)
-![20220804_133312](https://user-images.githubusercontent.com/108306069/184798454-f7108c8d-c39e-456d-8c7f-5fc41f56aa8a.jpg)
-![20220804_133330](https://user-images.githubusercontent.com/108306069/184798460-2a789be2-3efb-4a77-9485-1bf93ba478ae.jpg)
-![20220804_133335](https://user-images.githubusercontent.com/108306069/184798463-87a4f5c2-265f-471e-b069-ab299ab38463.jpg)
-![20220804_133356](https://user-images.githubusercontent.com/108306069/184798464-eb66bf25-b292-42ac-91a7-0bc6de4cb669.jpg)
-![20220804_133407](https://user-images.githubusercontent.com/108306069/184798466-7e40b3fe-db35-4db4-b1f6-80fe5cb653d0.jpg)
-![20220804_133426](https://user-images.githubusercontent.com/108306069/184798467-91330268-8961-427e-8216-f5d0071aa060.jpg)
+## PT100 Board to DB15 wires (3 wire configuration)
+
+### Materials:
+
+- Heat-shrink
+- Three Wire cable
+- 4 position cable (digikey)
+
+
+
+Finished:
+
+<img src = "https://user-images.githubusercontent.com/108306069/184798467-91330268-8961-427e-8216-f5d0071aa060.jpg" width="48%" height="48%" />
+
+
+
+## To DB-15
+<img src = "https://user-images.githubusercontent.com/108306069/184798452-a2e35591-c14f-439d-8de4-ad9fd6077813.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798454-f7108c8d-c39e-456d-8c7f-5fc41f56aa8a.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798460-2a789be2-3efb-4a77-9485-1bf93ba478ae.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798463-87a4f5c2-265f-471e-b069-ab299ab38463.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798464-eb66bf25-b292-42ac-91a7-0bc6de4cb669.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798466-7e40b3fe-db35-4db4-b1f6-80fe5cb653d0.jpg" width="48%" height="48%" />
+
 
 
 [Back to Top](#table-of-contents)
