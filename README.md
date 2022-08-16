@@ -371,14 +371,12 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 
 # -- Thermocouples
 
-![20220802_090016](https://user-images.githubusercontent.com/108306069/184797975-fc4db0a3-60fa-4edf-9261-d95e57df57c0.jpg)
-![20220802_090030](https://user-images.githubusercontent.com/108306069/184797978-875eb3f6-0d54-40ae-a58f-71dc5eee1eac.jpg)
-![20220802_090109](https://user-images.githubusercontent.com/108306069/184797980-2b07f6f5-91d4-435a-9811-92fedaaa957c.jpg)
-![20220802_090127](https://user-images.githubusercontent.com/108306069/184797981-82fad48f-1704-4114-9ee3-c38b7d32de4a.jpg)
-![20220802_090151](https://user-images.githubusercontent.com/108306069/184797982-a81cf862-99a1-4ac6-b710-d1bf91d4642b.jpg)
-![20220802_091525](https://user-images.githubusercontent.com/108306069/184797984-be74ec2f-2472-46f0-8b26-a14d1fa91c11.jpg)
-![20220802_091625](https://user-images.githubusercontent.com/108306069/184797985-349ff1dd-66df-4d0f-b85b-1d4ba747c348.jpg)
-![20220802_091648](https://user-images.githubusercontent.com/108306069/184797986-8c6c7884-4de2-402e-9d6a-dd6a6c5a505d.jpg)
+<img src = "https://user-images.githubusercontent.com/108306069/184797975-fc4db0a3-60fa-4edf-9261-d95e57df57c0.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797978-875eb3f6-0d54-40ae-a58f-71dc5eee1eac.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797980-2b07f6f5-91d4-435a-9811-92fedaaa957c.jpg" width="50%" height="50%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184797981-82fad48f-1704-4114-9ee3-c38b7d32de4a.jpg" width="50%" height="50%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797982-a81cf862-99a1-4ac6-b710-d1bf91d4642b.jpg" width="50%" height="50%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/184797984-be74ec2f-2472-46f0-8b26-a14d1fa91c11.jpg" width="50%" height="50%" /> 
+<img src = "https://user-images.githubusercontent.com/108306069/184797985-349ff1dd-66df-4d0f-b85b-1d4ba747c348.jpg" width="50%" height="50%" /> 
+<img src = "https://user-images.githubusercontent.com/108306069/184797986-8c6c7884-4de2-402e-9d6a-dd6a6c5a505d.jpg" width="50%" height="50%" />
 
 
 
