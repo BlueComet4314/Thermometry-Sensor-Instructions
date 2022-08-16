@@ -376,7 +376,7 @@ The thermocouples used in this sensor are type 'T', with Copper and Constantan (
 
 Thermocouples themselves always consist of two different types of metals that are joined together at one end - whether with solder or welding is up to the person. When the soldered end of the thermocouple is heated or cooled a voltage is created that can be associated with a specific temperature.
 
-The thermocouples in our system will be used in conjunction with the Adafruit MAX31856 (Thermocouple Amplifier) boards.
+The thermocouples in our system will be used in conjunction with the Adafruit MAX31856 (Thermocouple Amplifier) boards. We'll need two - preferably long (roughly two and a half feet long) in order to test temperature readings. You can also make two short thermocouples in order to quickly test room temperature without the hastle of the long wires.
 
 First, strip both ends of the thermocouple wires - the outer plastic, then the individuals (as shown in the images below).
 
@@ -390,21 +390,26 @@ On the other end, twist the two metals and solder the wires together.
 <img src = "https://user-images.githubusercontent.com/108306069/184797984-be74ec2f-2472-46f0-8b26-a14d1fa91c11.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797985-349ff1dd-66df-4d0f-b85b-1d4ba747c348.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797986-8c6c7884-4de2-402e-9d6a-dd6a6c5a505d.jpg" width="48%" height="48%" />
 
 
+
+
 The two ends that were not soldered together will be inserted into the terminal block (the black fastener), the Copper wire will be placed in the positive port (right hole) and the Constantan wire will be placed into the negative port (left hole).
 
 Screw the top until the wires rest tightly inside the terminal block.
 
-<img src = "https://user-images.githubusercontent.com/108306069/184805117-dcde885e-2d76-4d93-8e5a-e100852c7875.jpg" width="48%" height="48%" />
-<img src = "https://user-images.githubusercontent.com/108306069/184805121-ee6cd491-92a6-4038-940c-528f8b567b45.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184805117-dcde885e-2d76-4d93-8e5a-e100852c7875.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184805121-ee6cd491-92a6-4038-940c-528f8b567b45.jpg" width="48%" height="48%" />
 
-![20220725_151458 copy](https://user-images.githubusercontent.com/108306069/184806560-3b6ca52e-71c3-46db-adff-15a50cf7afdc.jpg)
-
-
-Full Sensor:
-
-![20220725_084911](https://user-images.githubusercontent.com/108306069/184806520-f2504c28-adb8-4823-b3b6-62ac52206db0.jpg)
+<img src = "https://user-images.githubusercontent.com/108306069/184806560-3b6ca52e-71c3-46db-adff-15a50cf7afdc.jpg" width="48%" height="48%" />
 
 
+
+
+Full Sensor with short thermocouples:
+
+<img src = "https://user-images.githubusercontent.com/108306069/184806520-f2504c28-adb8-4823-b3b6-62ac52206db0.jpg" width="60%" height="60%" />
+
+Full sensor with long thermocouples:
+
+<img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="60%" height="60%" />
 
 
 
