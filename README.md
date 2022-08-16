@@ -306,11 +306,11 @@ The order in that I added pieces (this is not the best order to go in).
 
 #### Parts Used
 
-| Board Type | Purpose | Digikey Pin |
-| -- | -- | -- |
-| Adafruit MAX31865 | RTD | 1528-1804-ND |
-| Adafruit MAX31856 | Thermocouple Amplifier | 1528-1772-ND |
-| Adafruit BME 280 | Temperature, Humidity, Pressure | 1528-1359-ND |
+| Board Type | Purpose | Digikey Pin | Amount |
+| -- | -- | -- | -- |
+| Adafruit MAX31865 | RTD | 1528-1804-ND | Five |
+| Adafruit MAX31856 | Thermocouple Amplifier | 1528-1772-ND | Two |
+| Adafruit BME 280 | Temperature, Humidity, Pressure | 1528-1359-ND | One |
 
 - Five Adafruit MAX 31865 boards (Resistance Temperature Detectors (RTDs)) are soldered to their respective places along one end of the main board.
   - These for pin holes are normally where two wire clamps would go. However, instead, we are going to put 3 Connector headers here.  The MAX 31865 boards do not have Connectors that are wide enough for the 4 pins, so break apart the receptacle headers into singular pieces.
@@ -372,12 +372,28 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 # -- Thermocouples
 
 
+The thermocouples used in this sensor are type 'T', with Copper and Constantan (Cu-Con) metals. This type of thermocouple can measure tempuratures from -250 degrees Celsius (23.15) to 350 degrees Celsius (623.15), which is very helpful to measure accurate temperatures in cryogenic conditions.
+
+Thermocouples themselves always consist of two different types of metals that are joined together at one end - whether with solder or welding is up to the person. When the soldered end of the thermocouple is heated or cooled a voltage is created that can be associated with a specific temperature.
+
+The thermocouples in our system will be used in conjunction with the Adafruit MAX31856 (Thermocouple Amplifier) boards.
+
+First, strip both ends of the thermocouple wires - the outer plastic, then the individuals (as shown in the images below).
+
+Leave one side of the wire alone, that will be inserted into the connectors on the thermocouple amplifiers.
+On the other end, twist the two metals and solder the wires together.
+
 <img src = "https://user-images.githubusercontent.com/108306069/184797978-875eb3f6-0d54-40ae-a58f-71dc5eee1eac.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797980-2b07f6f5-91d4-435a-9811-92fedaaa957c.jpg" width="48%" height="48%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184797981-82fad48f-1704-4114-9ee3-c38b7d32de4a.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797982-a81cf862-99a1-4ac6-b710-d1bf91d4642b.jpg" width="48%" height="48%" />
 
-<img src = "https://user-images.githubusercontent.com/108306069/184797984-be74ec2f-2472-46f0-8b26-a14d1fa91c11.jpg" width="48%" height="48%" /> 
-<img src = "https://user-images.githubusercontent.com/108306069/184797985-349ff1dd-66df-4d0f-b85b-1d4ba747c348.jpg" width="48%" height="48%" /> 
-<img src = "https://user-images.githubusercontent.com/108306069/184797986-8c6c7884-4de2-402e-9d6a-dd6a6c5a505d.jpg" width="48%" height="48%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/184797984-be74ec2f-2472-46f0-8b26-a14d1fa91c11.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797985-349ff1dd-66df-4d0f-b85b-1d4ba747c348.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184797986-8c6c7884-4de2-402e-9d6a-dd6a6c5a505d.jpg" width="48%" height="48%" />
+
+
+The two ends that were not soldered together will be inserted into the terminal block (the black fastener), the Copper wire will be placed in the positive port (right hole) and the Constantan wire will be placed into the negative port (left hole).
+
+Screw the top until the wires rest tightly inside the terminal block.
+
 
 
 
