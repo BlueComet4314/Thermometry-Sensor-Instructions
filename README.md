@@ -253,7 +253,7 @@ Parts:
 | LCD Conn | 2x CONN HEADER 14POS | AE11367-ND| Green |
 | R1-12 | 22 Ohm 0805 | A126437CT-ND | -- |
 | R13 | 0 Ohm 0805 | A106066CT-ND | -- |
-| CP1 | 47 uF 1206 | ?? | Teal |
+| CP1 | 47 uF 1206 | 490-16309-1-ND | Teal |
 | F1 | 1A Fuse | F6777CT-ND | Pink |
 | C1 | 0.1 uF Ethernet Cap | BC1084CT-ND | Light Blue circle |
 | MCU1 | 2x 24POS Recpt | SAM1093-24-ND | -- |
@@ -419,7 +419,9 @@ Full sensor with long thermocouples:
 
 # -- PT100 (RTD) Boards
 
-These boards were designed to measure and read out temperatures taken from a PT100 sensor, which is transmitted to the Adafruit MAX 31865 boards.
+These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in image below):
+
+
 
 
 ### Boards:
@@ -435,13 +437,13 @@ These boards were designed to measure and read out temperatures taken from a PT1
 
 | Part | Store | Pin |
 | -- | -- | -- |
-| PT100 - RTD | Digikey | ?? |
+| PT100 - RTD | Digikey | 1759-1021-ND |
 | Qwiic JST Connector | Mouser Electronics | 474-PRT-16766 |
 | 4 Position Cable | Digikey | 1568-PRT-17257-ND |
 
-OshPark Schematic:
+### OshPark Schematic:
 
-[PT100 Level Board - V2](#https://oshpark.com/shared_projects/1DKsv6yt)
+[PT100 Level Board - V2](https://oshpark.com/shared_projects/1DKsv6yt)
 
 
 
