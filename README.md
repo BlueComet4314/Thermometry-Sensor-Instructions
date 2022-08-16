@@ -419,14 +419,18 @@ Full sensor with long thermocouples:
 
 # -- PT100 (RTD) Boards
 
-These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in image below):
+These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below):
 
-![20220809_175251](https://user-images.githubusercontent.com/108306069/184950651-861cfc07-9899-45eb-b866-f16872eb4698.jpg)
-![20220809_175343](https://user-images.githubusercontent.com/108306069/184950659-782837f7-7d89-4b54-8d48-7881b280e1de.jpg)
-![IMG-20220810-WA0001](https://user-images.githubusercontent.com/108306069/184950660-9deae683-f29d-4264-b6f1-af0b1e33e0c2.jpg)
-![IMG-20220810-WA0002](https://user-images.githubusercontent.com/108306069/184950662-61a63287-75ee-48fd-843a-6d65c137ffc9.jpg)
-![IMG-20220810-WA0005](https://user-images.githubusercontent.com/108306069/184950664-8b982339-5a1b-4624-a848-c9b0ee40485c.jpg)
 
+
+
+
+<img src = "https://user-images.githubusercontent.com/108306069/184950659-782837f7-7d89-4b54-8d48-7881b280e1de.jpg" width="48%" height="48%" />
+
+
+<img src = "https://user-images.githubusercontent.com/108306069/184950651-861cfc07-9899-45eb-b866-f16872eb4698.jpg" width="48%" height="48%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/184950662-61a63287-75ee-48fd-843a-6d65c137ffc9.jpg" width="48%" height="48%" />
 
 
 ### Boards:
