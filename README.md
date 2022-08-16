@@ -394,6 +394,16 @@ The two ends that were not soldered together will be inserted into the terminal 
 
 Screw the top until the wires rest tightly inside the terminal block.
 
+<img src = "https://user-images.githubusercontent.com/108306069/184805117-dcde885e-2d76-4d93-8e5a-e100852c7875.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184805121-ee6cd491-92a6-4038-940c-528f8b567b45.jpg" width="48%" height="48%" />
+
+![20220725_151458 copy](https://user-images.githubusercontent.com/108306069/184806560-3b6ca52e-71c3-46db-adff-15a50cf7afdc.jpg)
+
+
+Full Sensor:
+
+![20220725_084911](https://user-images.githubusercontent.com/108306069/184806520-f2504c28-adb8-4823-b3b6-62ac52206db0.jpg)
+
 
 
 
