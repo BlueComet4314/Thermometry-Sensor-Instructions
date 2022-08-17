@@ -16,7 +16,7 @@
 <u>**Instructions**</u>
 
 - [Thermometry Sensor](#thermometry-sensor)
-- [Thermocouples](#thermocouples)
+- [Thermocouples](#--thermocouples)
 - [PT100 (RTD) Boards](#pt100-rtd-boards)
 - [Wiring](#wiring)
 - [Casing](#casing)
