@@ -226,7 +226,7 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 
 # Instructions: 
 
-# -- Thermometry Sensor
+# Thermometry Sensor
 
 Finished schematic:
 
@@ -369,7 +369,7 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 
 [Back to Top](#table-of-contents)
 
-# -- Thermocouples
+# Thermocouples
 
 
 The thermocouples used in this sensor are type 'T', with Copper and Constantan (Cu-Con) metals. This type of thermocouple can measure tempuratures from -250 degrees Celsius (23.15) to 350 degrees Celsius (623.15), which is very helpful to measure accurate temperatures in cryogenic conditions.
@@ -417,7 +417,7 @@ Full sensor with long thermocouples:
 
 [Back to Top](#table-of-contents)
 
-# -- PT100 (RTD) Boards
+# PT100 (RTD) Boards
 
 These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below). The board was designed with a 4-40 screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up):
 
@@ -505,7 +505,7 @@ full comparisons:
 
 [Back to Top](#table-of-contents)
 
-# -- Wiring
+# Wiring
 
 ## PT100 Board to DB15 wires (3 wire configuration)
 
@@ -535,15 +535,15 @@ Finished:
 
 [Back to Top](#table-of-contents)
 
-# -- Casing
+# Casing
 
 [Back to Top](#table-of-contents)
 
-# -- DB15 Layout
+# DB15 Layout
 
 [Back to Top](#table-of-contents)
 
-# -- Test Board
+# Test Board
 
 [Back to Top](#table-of-contents)
 
