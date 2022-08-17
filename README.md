@@ -422,14 +422,17 @@ Full sensor with long thermocouples:
 These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below). The board was designed with a 4-40 screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up):
 
 
+<img src = "https://user-images.githubusercontent.com/108306069/184951746-3d9781f4-3e90-45ee-a319-53f1975df39f.jpg" width="80%" height="80%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/184952454-4f8a7b08-593c-4097-a2c9-51678762b16a.jpg" width="60%" height="60%" />
+
+----
 
 <img src = "https://user-images.githubusercontent.com/108306069/184951745-5f80ee6f-18ba-4bc3-85bd-5df7187f7dcd.jpg" width="80%" height="80%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184952451-c3b241d5-560c-49d6-adca-50b395936aa7.jpg" width="60%" height="60%" />
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/184951746-3d9781f4-3e90-45ee-a319-53f1975df39f.jpg" width="80%" height="80%" />
 
-<img src = "https://user-images.githubusercontent.com/108306069/184952454-4f8a7b08-593c-4097-a2c9-51678762b16a.jpg" width="60%" height="60%" />
 
 Full Set Up
 
@@ -447,6 +450,7 @@ Full Set Up
 
 ### Sensor:
 
+<img src="https://user-images.githubusercontent.com/108306069/184969295-23648c81-804a-42bb-b3d2-1c7f80b1928e.png" width="48%" height="48%" />
 
 ---
 ## Parts:
