@@ -15,7 +15,7 @@
 
 <u>**Instructions**</u>
 
-- [Thermometry Sensor](#thermometry-sensor)
+- [Thermometry Sensor](#thermometry-sensor-1)
 - [Thermocouples](#thermocouples)
 - [PT100 (RTD) Boards](#pt100-rtd-boards)
 - [Wiring](#wiring)
@@ -48,6 +48,7 @@ The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier
 
 
 ## Thermometry Sensor:
+
 
 ### - Normal parts
 | LOC | Part | Digikey PN |
@@ -228,11 +229,16 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 
 # Thermometry Sensor
 
-Finished schematic:
+### OshPark link:
+
+[Thermometry_Board_V2](https://oshpark.com/shared_projects/bG9Ms06A)
+
+
+### Finished schematic:
 
 <img src="https://user-images.githubusercontent.com/108306069/180638077-1676d7af-37d4-4900-81e7-8d532505efff.png" width="40%" height="40%" /> 
 
-Finished Board:
+### Initial Board:
 
 <img src = "https://user-images.githubusercontent.com/108306069/180638084-9f4401e8-8b92-4297-a38c-d2ef5e9d8e3c.jpg" width="30%" height="30%" />
 
