@@ -425,7 +425,9 @@ Full sensor with long thermocouples:
 
 # PT100 (RTD) Boards
 
-These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below). The board was designed with a 4-40 screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up):
+These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below). 
+
+The board was designed with a 4-40 screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up)):
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/184951746-3d9781f4-3e90-45ee-a319-53f1975df39f.jpg" width="80%" height="80%" />
@@ -538,14 +540,16 @@ Finished:
 <img src = "https://user-images.githubusercontent.com/108306069/184798466-7e40b3fe-db35-4db4-b1f6-80fe5cb653d0.jpg" width="48%" height="48%" />
 
 
-
 [Back to Top](#table-of-contents)
 
 # Casing
 
+
 [Back to Top](#table-of-contents)
 
 # DB15 Layout
+
+## [DB15 Wiring to RTD(Adafruit) boards](https://github.com/BlueComet4314/Test-Board-Instructions)
 
 [Back to Top](#table-of-contents)
 
