@@ -525,7 +525,7 @@ full comparisons:
 
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg" width="50%" height="55%" /> <img src = "https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg"  width="50%" height="55%" />
+<img src = "https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg" width="50%" height="55%" /><img src = "https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg"  width="50%" height="55%" />
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" />
