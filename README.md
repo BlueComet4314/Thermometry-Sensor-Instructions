@@ -524,17 +524,19 @@ full comparisons:
 - 4 position cable (digikey)
 
 
-![20220811_093120](https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg)
-![20220811_093247](https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg)
-![20220811_093317](https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg)
+
+<img src = "https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg" width="55%" height="55%" /> <img src = "https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg"  width="55%" height="55%" />
+
+
+<img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="55%" height="55%" />
 
 
 
 
 
-Finished:
+### Finished:
 
-<img src = "https://user-images.githubusercontent.com/108306069/184798467-91330268-8961-427e-8216-f5d0071aa060.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798467-91330268-8961-427e-8216-f5d0071aa060.jpg" width="55%" height="55%" />
 
 
 
