@@ -549,7 +549,8 @@ The 4P cable is colored black, red, blue, and yellow, but the blue wire was not 
 <img src = "https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg" width="50%" height="55%" /><img src = "https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg"  width="50%" height="55%" />
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" />
+<img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" />![20220811_093317 copy](https://user-images.githubusercontent.com/108306069/185778949-317af6b9-57d7-4d23-b54a-ae9a424c5173.jpg)
+
 
 
 Move the heat shrink so that it covers the exposed wire and both cables that were soldered together. 
@@ -558,6 +559,8 @@ The wires can all three be moved in front of the heat gun at the same time, as l
 
 Then, cut another piece of heat shrink and place it over the three wire cable (white, red, black) all the way until just before the the soldered joints - not entirely over the connected wires. It is circled in the next photo:
 
+
+![wiring](https://user-images.githubusercontent.com/108306069/185778777-e66a54ad-fd78-4270-ad75-b8b09ac564be.png)
 
 
 
