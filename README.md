@@ -568,6 +568,9 @@ This also needs to be shrunk with the heat gun. Another wider tube of heat shrin
 More heat shrink tubes can be added anywhere on the long strips of wires to keep the three cables together. I recommend putting a piece somwhere in the middle of the 3 wire and, on the opposite side, a little over an inch from the end.
 
 
+![labeledwires](https://user-images.githubusercontent.com/108306069/185779342-11dd0550-268c-43da-8a5a-2952a9d8174b.png)
+
+
 
 ### Finished:
 
