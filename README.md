@@ -18,9 +18,18 @@
 - [Thermometry Sensor](#thermometry-sensor-1)
 - [Thermocouples](#thermocouples)
 - [PT100 (RTD) Boards](#pt100-rtd-boards)
+
+  - [RTD Sensor](#sensor)
+  - [Parts](#parts)
+  - [Oshpark Schematic](#oshpark-schematic)
 - [Wiring](#wiring)
+
+  - [QWIIC cables to 3 Wire cable](#pt100-board-to-db15-wires-3-wire-configuration)
+  - [DB15 Connector Layout for soldering](#db15-layout)
+
+    - [Visual of wires connected to DB15](#to-db-15-images)
 - [Casing](#casing)
-- [Layout for DB15 connector](#db15-layout)
+
 - [Test Board](#test-board)
 
 
@@ -579,7 +588,19 @@ Circled in blue are both the soldered ends of the 3 wire and 4P QWIIC connectors
 
 
 
-## To DB-15
+
+
+[Back to Top](#table-of-contents)
+
+
+# DB15 Layout
+
+## [DB15 Wiring to RTD(Adafruit) boards](https://github.com/BlueComet4314/Test-Board-Instructions)
+
+
+
+### To DB-15 (Images)
+
 <img src = "https://user-images.githubusercontent.com/108306069/184798452-a2e35591-c14f-439d-8de4-ad9fd6077813.jpg" width="48%" height="48%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184798454-f7108c8d-c39e-456d-8c7f-5fc41f56aa8a.jpg" width="48%" height="48%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184798460-2a789be2-3efb-4a77-9485-1bf93ba478ae.jpg" width="48%" height="48%" />
@@ -587,19 +608,15 @@ Circled in blue are both the soldered ends of the 3 wire and 4P QWIIC connectors
 <img src = "https://user-images.githubusercontent.com/108306069/184798464-eb66bf25-b292-42ac-91a7-0bc6de4cb669.jpg" width="48%" height="48%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184798466-7e40b3fe-db35-4db4-b1f6-80fe5cb653d0.jpg" width="48%" height="48%" />
 
-
 [Back to Top](#table-of-contents)
+
 
 # Casing
 
 
 [Back to Top](#table-of-contents)
 
-# DB15 Layout
 
-## [DB15 Wiring to RTD(Adafruit) boards](https://github.com/BlueComet4314/Test-Board-Instructions)
-
-[Back to Top](#table-of-contents)
 
 # Test Board
 
