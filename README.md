@@ -549,7 +549,7 @@ The 4P cable is colored black, red, blue, and yellow, but the blue wire was not 
 <img src = "https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg" width="50%" height="55%" /><img src = "https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg"  width="50%" height="55%" />
 
 
-<img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" />![20220811_093317 copy](https://user-images.githubusercontent.com/108306069/185778949-317af6b9-57d7-4d23-b54a-ae9a424c5173.jpg)
+<img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" /><img src = "https://user-images.githubusercontent.com/108306069/185778949-317af6b9-57d7-4d23-b54a-ae9a424c5173.jpg" width="50%" height="55%" />
 
 
 
@@ -557,11 +557,15 @@ Move the heat shrink so that it covers the exposed wire and both cables that wer
 Heat the shrink plastics so that they are snug on the wires and do not individually move.
 The wires can all three be moved in front of the heat gun at the same time, as long the heat shrink plastics are not touching each other.
 
-Then, cut another piece of heat shrink and place it over the three wire cable (white, red, black) all the way until just before the the soldered joints - not entirely over the connected wires. It is circled in the next photo:
+Then, cut another piece of heat shrink and place it over the three wire cable (white, red, black) all the way until just before the the soldered joints - not entirely over the connected wires. 
+This is to help keep the wires themselves protected and to keep them held together.
+It is circled in the next photo:
 
+<img src = "https://user-images.githubusercontent.com/108306069/185778777-e66a54ad-fd78-4270-ad75-b8b09ac564be.png" width="50%" height="55%" />
 
-![wiring](https://user-images.githubusercontent.com/108306069/185778777-e66a54ad-fd78-4270-ad75-b8b09ac564be.png)
+This also needs to be shrunk with the heat gun. Another wider tube of heat shrink needs to be cut. this time placed over the entirety of the wires - **_including_** the blue wire that was not used from the 4P QWIIC cable. The blue wire is included so that there are no exposed wires - to protect it and the system from shorts.
 
+More heat shrink tubes can be added anywhere on the long strips of wires to keep the three cables together. I recommend putting a piece somwhere in the middle of the 3 wire and, on the opposite side, a little over an inch from the end.
 
 
 
