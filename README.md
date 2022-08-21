@@ -523,12 +523,40 @@ full comparisons:
 - Three Wire cable
 - 4 position cable (digikey)
 
+The PT100 wires are connected to the Adafruit board with a 3 wire configuration. 
+The four position (4P) cable bought from digikey site contains four wires and has two male QWIIC connectors on either side - the length of the wire will need to be cut in half.
+
+As seen in the below photos, the blue wire from the 4P cable was folded back, the three left were stripped and tinned.
+
+Three wire braided cable can be used to make the 4P cable longer. For the nEXO group, 25 inch wire was needed, but the 4P wires were only 6 inches. Measure and cut needed length as necessary.
+
+### Note:
+
+The colors of the three wire cable doesn't matter, but it would be better to find colors that match with the QWIIC (4P) cable (or any other cable used) to keep colors consistent and easy to follow for later on.
+
+Recommended colors would be - black, red, and white cable. 
+The 4P cable is colored black, red, blue, and yellow, but the blue wire was not used; red to red, black to black, and yellow to white.
+
+ The 3 wire cable was also stripped and tinned, but before soldering them together, make sure heat shrink plastic tubes are put on the individual wires. 
+ The heat shrink should be think enough to fit over the wire and still have some room to maneuver. 
+ It should then be soldered to the 4P cable as seen in the images below.
+
+ The other end of the three wire should not be soldered to anything yet.
+ 
+
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/185766617-954beb76-67e1-41be-bd0b-90935a3922cc.jpg" width="50%" height="55%" /><img src = "https://user-images.githubusercontent.com/108306069/185766623-c3d06b05-1737-4e91-85f3-d4f61504958a.jpg"  width="50%" height="55%" />
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" />
+
+
+Move the heat shrink so that it covers the exposed wire and both cables that were soldered together. 
+Heat the shrink plastics so that they are snug on the wires and do not individually move.
+The wires can all three be moved in front of the heat gun at the same time, as long the heat shrink plastics are not touching each other.
+
+Then, cut another piece of heat shrink and place it over the three wire cable (white, red, black) all the way until just before the the soldered joints - not entirely over the connected wires. It is circled in the next photo:
 
 
 
