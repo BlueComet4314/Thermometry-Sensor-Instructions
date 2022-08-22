@@ -637,22 +637,14 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 ## --> [DB15 Wiring to RTD(Adafruit) boards](https://github.com/BlueComet4314/Test-Board-Instructions) <--
 
 
-### Version 1
+### ***Version 1***
 
-![20220721_170138](https://user-images.githubusercontent.com/108306069/185823465-3eda0fea-e163-41c3-babf-fc7cd613bd82.jpg)
-![20220722_094221](https://user-images.githubusercontent.com/108306069/185823466-614b1aed-64fd-41fd-8b8a-99fb3d206567.jpg)
-![20220722_094228](https://user-images.githubusercontent.com/108306069/185823467-a0d639e8-b88d-4b7d-a39e-066bed02b51a.jpg)
-![20220722_094246](https://user-images.githubusercontent.com/108306069/185823470-074942aa-4bb8-494e-9608-b56dc2b2b46e.jpg)
+<img src = "https://user-images.githubusercontent.com/108306069/185823465-3eda0fea-e163-41c3-babf-fc7cd613bd82.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823466-614b1aed-64fd-41fd-8b8a-99fb3d206567.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823467-a0d639e8-b88d-4b7d-a39e-066bed02b51a.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823470-074942aa-4bb8-494e-9608-b56dc2b2b46e.jpg" width="48%" height="48%" />
 
 
-### Version 2
+### ***Version 2***
 
-![20220721_170108](https://user-images.githubusercontent.com/108306069/185823544-dbf12f31-0b2b-497d-a1b6-4b21faf4f0c4.jpg)
-![20220721_170117](https://user-images.githubusercontent.com/108306069/185823545-3c58800f-b503-40a3-8a56-15bfd6b210d4.jpg)
-![20220721_170123](https://user-images.githubusercontent.com/108306069/185823546-3e61f260-9e90-45b5-b063-fd9456583b7a.jpg)
-
-
-
+<img src = "https://user-images.githubusercontent.com/108306069/185823544-dbf12f31-0b2b-497d-a1b6-4b21faf4f0c4.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823545-3c58800f-b503-40a3-8a56-15bfd6b210d4.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823546-3e61f260-9e90-45b5-b063-fd9456583b7a.jpg" width="48%" height="48%" />
 
 
 
@@ -661,7 +653,11 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 
 # Set-up
 
+## With Test Board
 
+
+
+## Full Set Up
 
 
 [Back to Top](#table-of-contents)
@@ -670,26 +666,49 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 
 ## Initial Room Temperature Testing of fully connected board
 
-![20220804_134351](https://user-images.githubusercontent.com/108306069/185823712-f5495cf6-93d2-46e9-9da5-2d9e74cd226b.jpg)
-![20220804_134353](https://user-images.githubusercontent.com/108306069/185823714-35214d32-92bf-4d4e-984b-b51130b6bcea.jpg)
-![20220804_134405](https://user-images.githubusercontent.com/108306069/185823716-3050e682-4cd1-4e99-8c79-3597b3178d24.jpg)
-![20220804_134408](https://user-images.githubusercontent.com/108306069/185823718-b0dd1cca-2b63-4da9-a3fa-107fa4b67e8a.jpg)
-![20220804_134430](https://user-images.githubusercontent.com/108306069/185823719-392f6ebd-6363-4266-a552-77626c0d4df1.jpg)
+PT100s and Thermocouples were left in open air, taking in temperature of the room.
+
+<img src = "https://user-images.githubusercontent.com/108306069/185823712-f5495cf6-93d2-46e9-9da5-2d9e74cd226b.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/185823714-35214d32-92bf-4d4e-984b-b51130b6bcea.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/185823716-3050e682-4cd1-4e99-8c79-3597b3178d24.jpg"
+<img src = "https://user-images.githubusercontent.com/108306069/185823718-b0dd1cca-2b63-4da9-a3fa-107fa4b67e8a.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/185823719-392f6ebd-6363-4266-a552-77626c0d4df1.jpg" width="48%" height="48%" />
 
 
 ## Test 1 - Sensors inside Liquid Xenon Cell, attached to Thermosiphon
 
+PT100s were attached to the Thermosiphon, as shown [here](#thermosiphon-set-up). The liquid xenon cell was placed under vacuum, Nitrogen gas was set to flow through the thermosiphon's lines, and temperature on the thermosiphon set to 170 degrees Kelvin (-103.15 Celsius/-153.67 Fahrenheit).
 
-![cooldown170](https://user-images.githubusercontent.com/108306069/185825356-5d2cc1e7-d477-42bf-9022-25fc893d71dd.jpg)
-![cooldown170-2](https://user-images.githubusercontent.com/108306069/185825363-5cc0f3f9-d289-4cfe-9fb4-7f02dc01f227.jpg)
-![170graph](https://user-images.githubusercontent.com/108306069/185825364-642cdf00-f81e-41bb-8ae0-5950d6acc406.jpg)
-![cooldown170-3](https://user-images.githubusercontent.com/108306069/185825365-3c5fcb1b-3f0b-4b77-891b-3f608f982329.jpg)
-![170graph2](https://user-images.githubusercontent.com/108306069/185825366-b02850b4-23a7-428c-83cd-b87de0454b18.jpg)
+<img src = "https://user-images.githubusercontent.com/108306069/185825356-5d2cc1e7-d477-42bf-9022-25fc893d71dd.jpg" width="48%" height="48%" />
+
+Initial cooldown, first readings of room temperature. 
+
+<img src = "https://user-images.githubusercontent.com/108306069/185825363-5cc0f3f9-d289-4cfe-9fb4-7f02dc01f227.jpg" width="48%" height="48%" />
+
+Thermosiphon has cooled to 170 K.
+
+RTDs 1-4 are located at different positions on the thermosiphon as shown in image [one](#back-side-view) and [two](#front-side-view). 
+RTDs 1 and 2 are near the top where it's the coldest, 3 and 4 are near the bottom where the heater on the Thermosiphon is located. 
+RTD 1 is in between 2 and 3.
+
+They will have slightly differing temperatures from each other, with the exception of 3 and 4.
+ 3 and 4 are located on the Aluminium block directly opposite from each other - they should have very similar readouts.
+
+
+<img src = "https://user-images.githubusercontent.com/108306069/185825365-3c5fcb1b-3f0b-4b77-891b-3f608f982329.jpg" width="48%" height="48%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/185825364-642cdf00-f81e-41bb-8ae0-5950d6acc406.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/185825366-b02850b4-23a7-428c-83cd-b87de0454b18.jpg" width="48%" height="48%" />
+
+
+Graphing as the PT100 sensors (only 4 were used in this test) were cooled to 170 degrees Kelvin.
 
 # Test 2 - Overnight test inside LXe Cell
 
 ![cooldown](https://user-images.githubusercontent.com/108306069/185830484-3af2b7ea-9638-4f55-8051-bc7c66f6ce40.jpg)
 ![cooldown2](https://user-images.githubusercontent.com/108306069/185830486-328119ac-515b-4b29-8bd6-fe290bb93bcf.png)
+
+Nitrogen gas was set to flow through the thermosiphon lines to cool it. The temperature of N2 is roughly 77 degrees Kelvin (-350 Fahrenheit/-196 Celsius)
 
 # Test 3 - "Room temperature" Check
 
@@ -706,6 +725,12 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 [Back to Top](#table-of-contents)
 
 # Flange
+
+**This section is only if the Thermometry Sensors are being used for a cryogenic system with metal connector flanges. The metal flanges are essentially used in order to connect a DB15 cable to the PT100 wires while keeping the PT100s inside vacuum and the cable in open air as seen in the photos below**
+
+**If not used for a cryogenic system, this section can be skipped.**
+
+
 
 
 
