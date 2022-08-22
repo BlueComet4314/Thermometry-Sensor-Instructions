@@ -465,6 +465,9 @@ Full Set Up
 
 <img src = "https://user-images.githubusercontent.com/108306069/184798246-4e013e32-0c95-4a86-936d-31fb06b9b0be.jpg" width="48%" height="48%" />
 
+[Back to Top](#table-of-contents)
+
+
 ### Sensor:
 
 <img src="https://user-images.githubusercontent.com/108306069/184969295-23648c81-804a-42bb-b3d2-1c7f80b1928e.png" width="48%" height="48%" />
@@ -478,6 +481,9 @@ Full Set Up
 | PT100 - RTD | Digikey | 1759-1021-ND |
 | Qwiic JST Connector | Mouser Electronics | 474-PRT-16766 |
 | 4 Position Cable | Digikey | 1568-PRT-17257-ND |
+
+[Back to Top](#table-of-contents)
+
 
 ### OshPark Schematic:
 
@@ -499,6 +505,8 @@ with penny:
 <img src = "https://user-images.githubusercontent.com/108306069/184798244-b7bac9e2-b7d5-40ac-bbb6-55a04a2c51d4.jpg" width="48%" height="48%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184798245-7f464741-0f0c-41e6-a66d-0577741e8255.jpg" width="48%" height="48%" />
 
+[Back to Top](#table-of-contents)
+
 
 
 completed
@@ -510,6 +518,8 @@ back <img src = "https://user-images.githubusercontent.com/108306069/184798253-8
 
 
 side <img src = "https://user-images.githubusercontent.com/108306069/184798254-52c8c02e-8b04-428b-8215-11323210e509.jpg" width="48%" height="48%" />
+
+[Back to Top](#table-of-contents)
 
 full comparisons:
 
@@ -539,7 +549,7 @@ As seen in the below photos, the blue wire from the 4P cable was folded back, th
 
 Three wire braided cable can be used to make the 4P cable longer. For the nEXO group, 25 inch wire was needed, but the 4P wires were only 6 inches. Measure and cut needed length as necessary.
 
-### Note:
+### _**Note**_:
 
 The colors of the three wire cable doesn't matter, but it would be better to find colors that match with the QWIIC (4P) cable (or any other cable used) to keep colors consistent and easy to follow for later on.
 
@@ -561,6 +571,7 @@ The 4P cable is colored black, red, blue, and yellow, but the blue wire was not 
 <img src = "https://user-images.githubusercontent.com/108306069/185766627-cb579d6f-ee85-4b9e-84e9-b5c3bbc7aa5e.jpg"  width="50%" height="55%" /><img src = "https://user-images.githubusercontent.com/108306069/185778949-317af6b9-57d7-4d23-b54a-ae9a424c5173.jpg" width="50%" height="55%" />
 
 
+[Back to Top](#table-of-contents)
 
 Move the heat shrink so that it covers the exposed wire and both cables that were soldered together. 
 Heat the shrink plastics so that they are snug on the wires and do not individually move.
@@ -620,21 +631,32 @@ Circled in blue are both the soldered ends of the 3 wire and 4P QWIIC connectors
 
 # Test Board
 
+Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables found [here](#db15-layout)
+
+
+## --> [DB15 Wiring to RTD(Adafruit) boards](https://github.com/BlueComet4314/Test-Board-Instructions) <--
+
+
+
 [Back to Top](#table-of-contents)
 
-# Test Procedure
-
-[Back to Top](#table-of-contents)
 
 # Set-up
+
+
+
 
 [Back to Top](#table-of-contents)
 
 # Final images
 
+
+
 [Back to Top](#table-of-contents)
 
 # Flange
+
+
 
 [Back to Top](#table-of-contents)
 
