@@ -1,13 +1,18 @@
 # Teensy Code - what it's for
 
-The code in the teensy_tft file needs to be uploaded to the Teensy 4.1 microcontroller used on the Thermometry Sensor board:
+
+
+The code in the teensy_tft file needs to be uploaded to the Teensy 4.1 microcontroller used on the Thermometry Sensor board
+
+This code essentially takes in the resistance/temperature readings from the PT100 (RTD sensors), converts the resistance to temperature in Kelvin, then displays this information to the digital screen that is connected to the main board.
+The code is written in C++.
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/186031393-ab272727-d524-465a-8bb0-4282cfe1d6a7.png" width=50% height=50% />
 <img src="https://user-images.githubusercontent.com/108306069/186031592-809fb829-91d5-4f96-82c8-fb6fc05c4156.png" width=80% height=50% />
 
 
-Program used for uploading can be found [here](https://www.pjrc.com/teensy/loader_mac.html).
+Programs used for uploading teensy code to the microcontroller can be found [here](https://www.pjrc.com/teensy/loader_mac.html).
 
 This link will take you to the following page:
 
