@@ -652,13 +652,16 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 
 # Teensy Code
 
-## [Full Teensy Code can be found here or above]()
+## Full Teensy Code can be found [***here***](https://github.com/BlueComet4314/Thermometry-Sensor-Instructions/tree/main/Teensy_code%20for%20Microcontroller) or in files at the top of the repository
+
+[Back to Top](#table-of-contents)
 
 # Set-up
 
 ## With Test Board
 
 
+[Back to Top](#table-of-contents)
 
 ## Full Set Up
 
