@@ -72,7 +72,7 @@ The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier
 | LCD Conn | 2x CONN HEADER 14POS | AE11367-ND|
 | R1-12 | 22 Ohm 0805 | A126437CT-ND |
 | R13 | 0 Ohm 0805 | A106066CT-ND |
-| CP1 | 47 uF 1206 | ?? |
+| CP1 | 47 uF 1206 | 490-16309-1-ND |
 | F1 | 1A Fuse | F6777CT-ND |
 | C1 | 0.1 uF Ethernet Cap | BC1084CT-ND |
 | MCU1 | 2x 24POS Recpt | SAM1093-24-ND |
@@ -650,6 +650,9 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 
 [Back to Top](#table-of-contents)
 
+# Teensy Code
+
+## [Full Teensy Code can be found here or above]()
 
 # Set-up
 

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Thermometry)(type KiCad)(uri ${KIPRJMOD}/MAX31865.pretty)(options "")(descr ""))
+)

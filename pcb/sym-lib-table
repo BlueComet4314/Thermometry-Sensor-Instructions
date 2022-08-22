@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name max31865)(type Legacy)(uri ${KIPRJMOD}/max31865.lib)(options "")(descr ""))
+  (lib (name thermo-rescue)(type Legacy)(uri ${KIPRJMOD}/thermo-rescue.lib)(options "")(descr ""))
+  (lib (name thermo_max31865)(type Legacy)(uri ${KIPRJMOD}/thermo_max31865.lib)(options "")(descr ""))
+  (lib (name thermo_max31856)(type Legacy)(uri ${KIPRJMOD}/thermo_max31856.lib)(options "")(descr ""))
+  (lib (name thermo_bme280)(type Legacy)(uri ${KIPRJMOD}/thermo_bme280.lib)(options "")(descr ""))
+)
