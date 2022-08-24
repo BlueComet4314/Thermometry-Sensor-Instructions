@@ -45,4 +45,4 @@ You will also need to change the I.P. and MAC address in the code itself accordi
 
 The IP address will be dependent on your local network.
 
-<img src="https://user-images.githubusercontent.com/108306069/186333172-af2e3c01-8c9d-4f26-8e27-bac763e66ec8.png" width="95%" />
+<img src="https://user-images.githubusercontent.com/108306069/186333172-af2e3c01-8c9d-4f26-8e27-bac763e66ec8.png" width="60%" />
