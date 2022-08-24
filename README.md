@@ -161,10 +161,10 @@ Teensy 4.1 -
 ## <u> Liquid Nitrogen Test </u>
 
 - With Original Copper PT100 blocks and long Thermocouples
-- Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - ~77 Kelvin. 
-  - Small margin of error on TCs +/- 3 Kelvin.
+- Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - $\sim 77$ Kelvin. 
+  - Small margin of error on TCs $+/- 3$ Kelvin.
 
-Liquid Nitrogen ranfes from 63 K - 77.2 Kelvin
+Liquid Nitrogen ranfes from $63$ K $- 77.2$ Kelvin
 
 ###  Readings:
 
@@ -214,11 +214,11 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 <img src = "https://user-images.githubusercontent.com/108306069/184043248-99a460e7-974e-4453-9f7a-95cef09b9bd0.jpg" width="60%" height="60%" />
 
 - The *top* of the Thermosiphon - (Copper block) is where the cool Liquid Nitrogen will enter, this is the coldest area
-    -  RTDs 1 and 2, and LZ 2 are located here
+    -  RTDs $1$ and $2$, and LZ $2$ are located here
 - The *very bottom* of the block (aluminium block) is where the heater is located - the warmest area.
-    - RTDs 3 and 4, and LZ 1 are located here
+    - RTDs $3$ and $4$, and LZ $1$ are located here
 
-### Set Thermosiphon temperature at 170 K	(Aluminium block).
+### Set Thermosiphon temperature at $170$ K	(Aluminium block).
 
 | PT100 |	Measurement (K) |
 | -- | -- |
@@ -230,7 +230,7 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 | LZ1 |	170.83 |
 | LZ2 |	157.61 |
 
-- This is very promising information - RTDs 3 and 4, and LZ 1 are located directly on the heater, reading near exactly 170 K. In addition, LZ1 and RTD4 sensor readings are very close to each other - roughly .5 K apart from one another
+- This is very promising information - RTDs $3$ and $4$, and LZ $1$ are located directly on the heater, reading near exactly $170$ K. In addition, LZ$1$ and RTD$4$ sensor readings are very close to each other - roughly $.5$ K apart from one another
 
 
 
@@ -390,7 +390,7 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 # Thermocouples
 
 
-The thermocouples used in this sensor are type 'T', with Copper and Constantan (Cu-Con) metals. This type of thermocouple can measure tempuratures from -250 degrees Celsius (23.15) to 350 degrees Celsius (623.15), which is very helpful to measure accurate temperatures in cryogenic conditions.
+The thermocouples used in this sensor are type 'T', with Copper and Constantan (Cu-Con) metals. This type of thermocouple can measure tempuratures from $-250$ degrees Celsius ($23.15$ K) to $350$ degrees Celsius ($623.15$ K), which is very helpful to measure accurate temperatures in cryogenic conditions.
 
 Thermocouples themselves always consist of two different types of metals that are joined together at one end - whether with solder or welding is up to the person. When the soldered end of the thermocouple is heated or cooled a voltage is created that can be associated with a specific temperature.
 
@@ -439,7 +439,7 @@ Full sensor with long thermocouples, connected to copper sensor blocks:
 
 These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below). 
 
-The board was designed with a 4-40 screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up)):
+The board was designed with a $4-40$ screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up)):
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/184951746-3d9781f4-3e90-45ee-a319-53f1975df39f.jpg" width="80%" height="80%" />
@@ -545,12 +545,28 @@ full comparisons:
 - Three Wire cable
 - 4 position cable (digikey)
 
-The PT100 wires are connected to the Adafruit board with a 3 wire configuration. 
+The PT100 wires are connected to the Adafruit board with a $3$ wire configuration. 
 The four position (4P) cable bought from digikey site contains four wires and has two male QWIIC connectors on either side - the length of the wire will need to be cut in half.
+
+---
+
+The reason for a 3 wire configuration over simply just having two has to do with the added resistance in the wires themselves. 
+
+(image)
+
+In a three or four wire configuration, the extra third and fourth wires detect the added resistance in the main (1st and 2nd) wires so that we are able to later account for it. 
+However, a four wire configuration is very complicated to put together. 
+Therefore, a $3$ wire config is used. 
+
+With a $3$ wire, we assume that the added resistance in the first wire is the same as what is detected in the third wire.
+
+More information on these configurations can be found [<u><big>***here***</u></big>](https://www.omega.com/en-us/resources/rtd-2-3-4-wire-connections)
+
+---
 
 As seen in the below photos, the blue wire from the 4P cable was folded back, the three left were stripped and tinned.
 
-Three wire braided cable can be used to make the 4P cable longer. For the nEXO group, 25 inch wire was needed, but the 4P wires were only 6 inches. Measure and cut needed length as necessary.
+Three wire braided cable can be used to make the 4P cable longer. For the nEXO group, $25$ inch wire was needed, but the 4P wires were only $6$ inches. Measure and cut needed length as necessary.
 
 ### _**Note**_:
 
@@ -559,7 +575,7 @@ The colors of the three wire cable doesn't matter, but it would be better to fin
 Recommended colors would be - black, red, and white cable. 
 The 4P cable is colored black, red, blue, and yellow, but the blue wire was not used; red to red, black to black, and yellow to white.
 
- The 3 wire cable was also stripped and tinned, but before soldering them together, make sure heat shrink plastic tubes are put on the individual wires. 
+ The $3$ wire cable was also stripped and tinned, but before soldering them together, make sure heat shrink plastic tubes are put on the individual wires. 
  The heat shrink should be think enough to fit over the wire and still have some room to maneuver. 
  It should then be soldered to the 4P cable as seen in the images below.
 
@@ -671,16 +687,28 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 
 Plug in the initial components before supplying the main board with power (just in case there are any shorts)
 
+1. Ethernet Cable into ethernet port
+2. Test Board into DB15 connector on Thermosensor
+3. Main screen needs to be connected to middle port.
+4. Thermocouples need to be screwed into the terminal block (the black fastener on the main board)
+  
+    -  ***Remember!!*** The Copper wire will be placed in the positive port (right hole) and the Constantan wire will be placed into the negative port (left hole).
+
+(image)
+
+After plugging in the components, supply power to the board, whether this is a usb cable inserted into the Teensy or a power adaptor into the barrel connector, it doesn't matter.
+***However***, make sure that if you use a power adaptor that it does **not** excede <u>**6 Volts**</u>. This can cause damage to the Teensy or other parts of the Thermosensor.
+
 [Back to Top](#table-of-contents)
 
-## Full Set Up
+## With PT100s
 
 
 [Back to Top](#table-of-contents)
 
 # Final images
 
-## Initial Room Temperature Testing of fully connected board
+## Test 1 -  Initial Room Temperature Testing of fully connected board
 
 PT100s and Thermocouples were left in open air, taking in temperature of the room.
 
@@ -691,7 +719,7 @@ PT100s and Thermocouples were left in open air, taking in temperature of the roo
 <img src = "https://user-images.githubusercontent.com/108306069/185823719-392f6ebd-6363-4266-a552-77626c0d4df1.jpg" width="48%" height="48%" />
 
 
-## Test 1 - Sensors inside Liquid Xenon Cell, attached to Thermosiphon
+## Test 2 - Sensors inside Liquid Xenon Cell, attached to Thermosiphon
 
 PT100s were attached to the Thermosiphon, as shown [here](#thermosiphon-set-up). The liquid xenon cell was placed under vacuum, Nitrogen gas was set to flow through the thermosiphon's lines, and temperature on the thermosiphon set to 170 degrees Kelvin (-103.15 Celsius/-153.67 Fahrenheit).
 
@@ -719,22 +747,37 @@ They will have slightly differing temperatures from each other, with the excepti
 
 Graphing as the PT100 sensors (only 4 were used in this test) were cooled to 170 degrees Kelvin.
 
-# Test 2 - Overnight test inside LXe Cell
+## Test 3 - Overnight test inside LXe Cell
 
-![cooldown](https://user-images.githubusercontent.com/108306069/185830484-3af2b7ea-9638-4f55-8051-bc7c66f6ce40.jpg)
-![cooldown2](https://user-images.githubusercontent.com/108306069/185830486-328119ac-515b-4b29-8bd6-fe290bb93bcf.png)
+<img src = "https://user-images.githubusercontent.com/108306069/185830484-3af2b7ea-9638-4f55-8051-bc7c66f6ce40.jpg" width="48%" height="48%" />
 
-Nitrogen gas was set to flow through the thermosiphon lines to cool it. The temperature of N2 is roughly 77 degrees Kelvin (-350 Fahrenheit/-196 Celsius)
+Initial check in the evening before being left overnight to fully cool.
 
-# Test 3 - "Room temperature" Check
+<img src = "https://user-images.githubusercontent.com/108306069/185830486-328119ac-515b-4b29-8bd6-fe290bb93bcf.png" width="90%" height="48%" />
+
+Graph of the complete cooldown of the RTD temperatures - stopping to rest at roughly $83$ K to $85$ K
+
+Nitrogen gas was set to flow through the thermosiphon lines to cool the thermosiphon itself. The temperature of N2 is roughly $77$ degrees Kelvin ($-350$ Fahrenheit/$-196$ Celsius). 
+
+The graph in the second image shows the successful cooldown to Nitrogen Temperature. As shown in the top image, the RTDs (from nEXO) and LZs (from LUX-ZEPPLIN) show matching temperatures. Since we knew that LZ's PT100 sensors did work, to see nEXO's RTDs reading out near identical readings was promising!
 
 
 
-![20220812_121022](https://user-images.githubusercontent.com/108306069/185830624-e4af3d1b-0b02-4ab2-9c18-89e4760b1d4d.jpg)
-![Day3-300](https://user-images.githubusercontent.com/108306069/185830626-8961bea6-30c9-4896-97b0-2fffccb7e0a5.jpg)
+## Updates -  "Room temperature" Check
 
 
 
+<img src = "https://user-images.githubusercontent.com/108306069/185830624-e4af3d1b-0b02-4ab2-9c18-89e4760b1d4d.jpg" width="50%" height="48%" />
+
+Quick check on thermometry sensors a few days after system's temperature was brought out of $77$ K and let to rise back to room temperature.
+
+Both Temperature Sensors that are being used now have their own protective cases.
+
+## Updates - Second Room temperature check
+
+After five days, the RTD sensors were once again check to make sure readings were accurate to the LZ sensors and that things were still running smoothly.
+
+(image)
 
 
 
@@ -742,9 +785,11 @@ Nitrogen gas was set to flow through the thermosiphon lines to cool it. The temp
 
 # Flange
 
-**This section is only if the Thermometry Sensors are being used for a cryogenic system with metal connector flanges. The metal flanges are essentially used in order to connect a DB15 cable to the PT100 wires while keeping the PT100s inside vacuum and the cable in open air as seen in the photos below**
+**This section is only if the Thermometry Sensors are being used for a cryogenic system with metal connector flanges. The metal flanges are essentially used in order to connect a DB15 cable to the PT100 wires while keeping the PT100s inside vacuum and the cable in open air as seen in the photos below.**
 
 **If not used for a cryogenic system, this section can be skipped.**
+
+
 
 
 
@@ -753,6 +798,23 @@ Nitrogen gas was set to flow through the thermosiphon lines to cool it. The temp
 [Back to Top](#table-of-contents)
 
 # Trouble Shooting
+
+
+
+## Teensy
+
+1. If you plug in the power source at some point and the green light on the Teensy blink on once briefly before dimming immediately to a faint green, this means that the Teensy may have been damaged/shorted.
+You can easily check this if you have another Teensy on hand, the Teensys are designed to be able to be removed from the pins it is connected to just in case. 
+You can pull the old Teensy off and replace it with a new one (once again uploading the Thermometry/Teensy code) and test it.
+
+    - Another way to see if this is a Teensy issue, is if the screen itself doesn't display anything.
+  It would only briefly light up once the power is supplied, then immediatly go black. 
+
+2. If you have made multiple different thermometry sensors - or even if you have only made one - make sure that you have changed the MAC and I.P. address according to your own system/server, and that they are different from one another.
+
+
+
+
 
 [Back to Top](#table-of-contents)
 

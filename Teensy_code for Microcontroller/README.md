@@ -27,7 +27,7 @@ Download the two Teensy Loader links (boxed in red) and install the packages - O
 
 The website will instruct you on how to download these apps.
 
-### **Note** 
+### ***Note  #1*** 
 
 The Teensy app (left side of above image) does not directly get downloaded into your applications folder.
 I'd recommend dragging and placing it there so you don't have to go searching for it.
@@ -38,3 +38,11 @@ The teensy_tft file in this repository will be opened through the Teensyduino ap
 When uploading the teensy_tft file, make sure that you are uploading a ***.zip*** file and not a folder.
 When the files here are downloaded from this repository, they will already be in a .zip format.
 Upload the teensy code exactly how it is downloaded.
+
+### ***Note #2***
+
+You will also need to change the I.P. and MAC address in the code itself according to your own system/server. Currently, there are three separate I.P.s and MAC addresses commented out in lines $35 - 49$. In the nEXO system, we built three thermometry sensors, each needed its own I.P. and MAC address.
+
+The IP address will be dependent on your local network.
+
+(image)
