@@ -553,7 +553,7 @@ The four position (4P) cable bought from digikey site contains four wires and ha
 The reason for a 3 wire configuration over simply just having two has to do with the added resistance in the wires themselves. 
 
 
-<img width="170" alt="Screen Shot 2022-08-23 at 11 37 52 PM" src="https://user-images.githubusercontent.com/108306069/186334230-cf53a1a7-a5ce-4c4d-8199-8c371e8bb186.png">
+<img src="https://user-images.githubusercontent.com/108306069/186334230-cf53a1a7-a5ce-4c4d-8199-8c371e8bb186.png" width="50%" />
 
 
 
