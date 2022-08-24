@@ -35,7 +35,7 @@
 
 <u>**Final Documentation**</u>
 
-- [Set-up Instructions](#set-up)
+- [Set-up Instructions](#set-up-instructions)
 - [Final Images](#final-images)
 - [Flange](#flange)
 - [Trouble Shooting](#trouble-shooting)
@@ -421,11 +421,11 @@ Screw the top until the wires rest tightly inside the terminal block.
 
 
 
-Full Sensor with short thermocouples:
+Full Sensor with short thermocouples and Test board:
 
 <img src = "https://user-images.githubusercontent.com/108306069/184806520-f2504c28-adb8-4823-b3b6-62ac52206db0.jpg" width="60%" height="60%" />
 
-Full sensor with long thermocouples:
+Full sensor with long thermocouples, connected to copper sensor blocks:
 
 <img src = "https://user-images.githubusercontent.com/108306069/181170964-011baca8-69f6-4f5b-88f1-50cd95f96876.jpg" width="60%" height="60%" />
 
@@ -634,6 +634,9 @@ Circled in blue are both the soldered ends of the 3 wire and 4P QWIIC connectors
 
 # Test Board
 
+Test boards for the Thermometry sensors boards were built in order to assay the functionality of the Thermometry boards as they were constructed.
+These test boards (as shown in figure \ref{v2testboard}) use five resistors, with a resistance of 100 ohms ($\Omega$). The thermometry sensors - through the Teensy-4.1 - are able to convert this resistance to temperature.
+
 Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables found [here](#db15-layout)
 
 
@@ -649,20 +652,25 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 
 <img src = "https://user-images.githubusercontent.com/108306069/185823544-dbf12f31-0b2b-497d-a1b6-4b21faf4f0c4.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823545-3c58800f-b503-40a3-8a56-15bfd6b210d4.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/185823546-3e61f260-9e90-45b5-b063-fd9456583b7a.jpg" width="48%" height="48%" />
 
+## ***Connected to Thermometry Sensor***
+
+<img src = "https://user-images.githubusercontent.com/108306069/184806520-f2504c28-adb8-4823-b3b6-62ac52206db0.jpg" width="80%" height="60%" />
 
 
 [Back to Top](#table-of-contents)
 
 # Teensy Code
 
-## Full Teensy Code can be found [***here***](https://github.com/BlueComet4314/Thermometry-Sensor-Instructions/tree/main/Teensy_code%20for%20Microcontroller) or in files at the top of the repository
+## Full Teensy Code and info can be found [***here***](https://github.com/BlueComet4314/Thermometry-Sensor-Instructions/tree/main/Teensy_code%20for%20Microcontroller) or in files at the top of the repository
 
 [Back to Top](#table-of-contents)
 
-# Set-up
+# Set-up Instructions
 
 ## With Test Board
 
+Plug in the initial components before supplying the main board with power (just in case there are any shorts)
+- 
 
 [Back to Top](#table-of-contents)
 

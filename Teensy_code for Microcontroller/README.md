@@ -21,7 +21,7 @@ This link will take you to the following page:
 
 Download the two Teensy Loader links (boxed in red) and install the packages - One is the Teensyduino application and a second loader just called Teensy:
 
-<img src="https://user-images.githubusercontent.com/108306069/186031696-5f7bca8f-2793-48db-b046-78d3197082d3.png" width=70% height=50% />
+<img src="https://user-images.githubusercontent.com/108306069/186031696-5f7bca8f-2793-48db-b046-78d3197082d3.png" width=50% height=50% />
 
 "Teensy" is the left application, "Teensyduino" is the right.
 
