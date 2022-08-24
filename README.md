@@ -670,7 +670,6 @@ Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables fou
 ## With Test Board
 
 Plug in the initial components before supplying the main board with power (just in case there are any shorts)
-- 
 
 [Back to Top](#table-of-contents)
 
