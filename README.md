@@ -552,7 +552,8 @@ The four position (4P) cable bought from digikey site contains four wires and ha
 
 The reason for a 3 wire configuration over simply just having two has to do with the added resistance in the wires themselves. 
 
-<img width="170" alt="Screen Shot 2022-08-23 at 11 37 52 PM" src="https://user-images.githubusercontent.com/108306069/186332826-3254d72f-20c5-460f-bcae-7c860da555fa.png">
+(fix)
+<img src="https://user-images.githubusercontent.com/108306069/186332826-3254d72f-20c5-460f-bcae-7c860da555fa.png" width="60%" height="48%" />
 
 
 In a three or four wire configuration, the extra third and fourth wires detect the added resistance in the main (1st and 2nd) wires so that we are able to later account for it. 
@@ -695,7 +696,7 @@ Plug in the initial components before supplying the main board with power (just 
   
     -  ***Remember!!*** The Copper wire will be placed in the positive port (right hole) and the Constantan wire will be placed into the negative port (left hole).
 
-![setup1](https://user-images.githubusercontent.com/108306069/186332681-432f33c2-13c9-40ab-8b6f-9d8d3e0f9920.png)
+<img src = "https://user-images.githubusercontent.com/108306069/186332681-432f33c2-13c9-40ab-8b6f-9d8d3e0f9920.png" width="90%" height="48%" />
 
 After plugging in the components, supply power to the board, whether this is a usb cable inserted into the Teensy or a power adaptor into the barrel connector, it doesn't matter.
 ***However***, make sure that if you use a power adaptor that it does **not** excede <u>**6 Volts**</u>. This can cause damage to the Teensy or other parts of the Thermosensor.
@@ -779,7 +780,7 @@ Both Temperature Sensors that are being used now have their own protective cases
 After five days, the RTD sensors were once again check to make sure readings were accurate to the LZ sensors and that things were still running smoothly.
 
 
-![Still running strong](https://user-images.githubusercontent.com/108306069/186332763-760c068b-a0f0-4bf3-9c33-e9a91aaf254f.jpg)
+<img src = "https://user-images.githubusercontent.com/108306069/186332763-760c068b-a0f0-4bf3-9c33-e9a91aaf254f.jpg" width="50%" height="48%" />
 
 
 
