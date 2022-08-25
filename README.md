@@ -473,8 +473,6 @@ Full Set Up
 
 <img src = "https://user-images.githubusercontent.com/108306069/184798246-4e013e32-0c95-4a86-936d-31fb06b9b0be.jpg" width="48%" height="48%" />
 
-[Back to Top](#table-of-contents)
-
 
 ### Sensor:
 
@@ -493,16 +491,13 @@ Full Set Up
 [Back to Top](#table-of-contents)
 
 
-### OshPark Schematic:
+### <u> OshPark Schematic:</u>
 
 [PT100 Level Board - V2](https://oshpark.com/shared_projects/1DKsv6yt)
 
 
 
-comparisons:
-
-with orignial
-<img src = "https://user-images.githubusercontent.com/108306069/184798239-fb192395-9d5d-4da7-83e9-6dc8dbcd7420.jpg" width="48%" height="48%" />
+### <u> Comparisons: </u>
 
 with penny:
 
@@ -517,7 +512,7 @@ with penny:
 
 
 
-completed
+### <u>completed</u>
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/184798247-97b44e98-79d8-4d36-9f35-07704dedc6bc.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798250-efc112f6-208a-4ca2-93cb-04ed21375a96.jpg" width="48%" height="48%" />
@@ -527,7 +522,11 @@ back <img src = "https://user-images.githubusercontent.com/108306069/184798253-8
 
 side <img src = "https://user-images.githubusercontent.com/108306069/184798254-52c8c02e-8b04-428b-8215-11323210e509.jpg" width="48%" height="48%" />
 
+Make sure that the ends of the RTD wires after soldered are snipped short.
+
 [Back to Top](#table-of-contents)
+
+
 
 full comparisons:
 
