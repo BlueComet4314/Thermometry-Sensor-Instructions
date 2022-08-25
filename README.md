@@ -48,7 +48,7 @@
 
 ## [Original Github - bungernut/nEXO_Thermometry](https://github.com/bungernut/nEXO_Thermometry)
 
-These sensor boards were built to read and display thermometry data. They were orignialy used for an experiment made by LUX-ZEPPLIN (LZ) to measure data within their cryogenic systems. Later, a group from the n Enriched Xenon Observatory (nEXO) group based their design (with permission) off of the group from LZ. This document details the process of creating the Thermometry Sensor boards for the nEXO experiment at the Stanford Linear Accelerator Center Laboratory (SLAC). The boards at nEXO are also used for cryogenic purposes inside of a cryogenic distillation column. 
+These sensor boards were built to read and display thermometry data. They were orignialy used for an experiment made by LUX-ZEPPLIN (LZ) to measure data within their cryogenic systems. Later, a group from the n Enriched Xenon Observatory (nEXO) group based their design (with permission) off of the group from LZ. This document details the process of creating the Thermometry Sensor boards for the nEXO experiment at SLAC National Accelerator Laboratory. The boards at nEXO are also used for cryogenic purposes inside of a cryogenic distillation column. 
 
 The Thermometry Boards are able to detect temperature, pressure, and humidity using five PT100 pads and two thermocouples. The pads are soldered to a small .5" circuit board and connected to the main Thermo board through a series of cables (which will be detailed out below). The small PT100 boards contain a 4-40 sized hole for a small screw, which will allow the boards to be attached to specific places inside of the cryogenic system (more into this later). 
 
@@ -68,7 +68,7 @@ The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier
 | J1 |  DB15 | LD15S33E4GV00LF-ND |
 | J2 | Barrel 2x5.5mm | CP-002A-ND |
 |Teensy Conn| 24POS RCPT| SAM1093-24-ND|
-|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB |
+|Teensy Conn| 6POS 2mm RCPT| 23-0791077002-ND |
 |Teensy header| 30POS 2.54mm | S1012EC-30-ND |
 |Teensy header| 6POS 2mm | WM20513-ND |
 | Ethernet Conn | 100 Base T | 1278-1052-ND |
@@ -92,7 +92,7 @@ The thermocouples are attached to two Adafruit MAX31856 - Thermocouple Amplifier
 Teensy 4.1 -
   - 1568-DEV-16771-ND
 
-### - PT100 Boards
+## - PT100 Boards
 
 
 ### - Equipment
@@ -161,10 +161,10 @@ Teensy 4.1 -
 ## <u> Liquid Nitrogen Test </u>
 
 - With Original Copper PT100 blocks and long Thermocouples
-- Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - $\sim 77$ Kelvin. 
-  - Small margin of error on TCs $+/- 3$ Kelvin.
+- Finished Thermo Sensor, tested temperature readout with Liquid Nitrogen - ~ 77 Kelvin. 
+  - Small margin of error on TCs +/- 3 Kelvin.
 
-Liquid Nitrogen ranfes from $63$ K $- 77.2$ Kelvin
+Liquid Nitrogen ranfes from 63 K - 77.2 Kelvin
 
 ###  Readings:
 
@@ -214,11 +214,11 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 <img src = "https://user-images.githubusercontent.com/108306069/184043248-99a460e7-974e-4453-9f7a-95cef09b9bd0.jpg" width="60%" height="60%" />
 
 - The *top* of the Thermosiphon - (Copper block) is where the cool Liquid Nitrogen will enter, this is the coldest area
-    -  RTDs $1$ and $2$, and LZ $2$ are located here
+    -  RTDs 1 and 2, and LZ 2 are located here
 - The *very bottom* of the block (aluminium block) is where the heater is located - the warmest area.
-    - RTDs $3$ and $4$, and LZ $1$ are located here
+    - RTDs 3 and 4, and LZ 1 are located here
 
-### Set Thermosiphon temperature at $170$ K	(Aluminium block).
+### Set Thermosiphon temperature at 170 K	(Aluminium block).
 
 | PT100 |	Measurement (K) |
 | -- | -- |
@@ -230,7 +230,7 @@ LZ2 and RTD 1 are also in parallel with each other on the Copper block - They sh
 | LZ1 |	170.83 |
 | LZ2 |	157.61 |
 
-- This is very promising information - RTDs $3$ and $4$, and LZ $1$ are located directly on the heater, reading near exactly $170$ K. In addition, LZ$1$ and RTD$4$ sensor readings are very close to each other - roughly $.5$ K apart from one another
+- This is very promising information - RTDs 3 and 4, and LZ 1 are located directly on the heater, reading near exactly 170 K. In addition, LZ1 and RTD4 sensor readings are very close to each other - roughly .5 K apart from one another
 
 
 
@@ -264,7 +264,7 @@ Parts:
 | J1 |  DB15 | LD15S33E4GV00LF-ND | yellow |
 | J2 | Barrel 2x5.5mm | CP-002A-ND | Dark Blue |
 |Teensy Conn| 24POS RCPT| SAM1093-24-ND| Orange |
-|Teensy Conn| 6POS 2mm RCPT| DUPIIN - 2141-2X03G00SB | Purple |
+|Teensy Conn| 6POS 2mm RCPT| 23-0791077002-ND | Purple |
 |Teensy header| 30POS 2.54mm | S1012EC-30-ND | Orange |
 |Teensy header| 6POS 2mm | WM20513-ND | Purple |
 | Ethernet Conn | 100 Base T | 1278-1052-ND | Red |
@@ -326,9 +326,9 @@ The order in that I added pieces (this is not the best order to go in).
 
 | Board Type | Purpose | Digikey Pin | Amount |
 | -- | -- | -- | -- |
-| Adafruit MAX31865 | RTD | 1528-1804-ND | Five |
+| Adafruit MAX31865 | Resistance Temperature Detector | 1528-1804-ND | Five |
 | Adafruit MAX31856 | Thermocouple Amplifier | 1528-1772-ND | Two |
-| Adafruit BME 280 | Temperature, Humidity, Pressure | 1528-1359-ND | One |
+| Adafruit BME 280 | Temperature, Humidity, Pressure Detector | 1528-1359-ND | One |
 
 - Five Adafruit MAX 31865 boards (Resistance Temperature Detectors (RTDs)) are soldered to their respective places along one end of the main board.
   - These for pin holes are normally where two wire clamps would go. However, instead, we are going to put 3 Connector headers here.  The MAX 31865 boards do not have Connectors that are wide enough for the 4 pins, so break apart the receptacle headers into singular pieces.
@@ -339,6 +339,11 @@ The order in that I added pieces (this is not the best order to go in).
  <img src = "https://user-images.githubusercontent.com/108306069/181920138-42bf636e-e0b3-4abb-a5d2-f194df4a10ec.jpg" width="40%" height="40%" /> <img src = "https://user-images.githubusercontent.com/108306069/181920141-11c5d22f-c9d0-45af-85e8-5ba06314fb83.jpg" width="40%" height="40%" />
 
 
+The individual pins will go in three specific places; one pin in the F- hole, one in the RTD+, and the last in th F+ hole. The front of the Adafruit board has just the F- and F+ label - the RTD+ hole is directly to the left of the F+ slot (see image). The full labels can also be seen on the very back. 
+
+(image)
+
+(image)
 
 <img src = "https://user-images.githubusercontent.com/108306069/181175433-eba0cc57-0372-44fe-94a2-c6e2bdbae26a.jpg" width="50%" height="50%" />
 
@@ -390,7 +395,7 @@ Nothing needs to be changed for the BME or Thermocouple amplifiers
 # Thermocouples
 
 
-The thermocouples used in this sensor are type 'T', with Copper and Constantan (Cu-Con) metals. This type of thermocouple can measure tempuratures from $-250$ degrees Celsius ($23.15$ K) to $350$ degrees Celsius ($623.15$ K), which is very helpful to measure accurate temperatures in cryogenic conditions.
+The thermocouples used in this sensor are type 'T', with Copper and Constantan (Cu-Con) metals. This type of thermocouple can measure tempuratures from -250 degrees Celsius (23.15 K) to 350 degrees Celsius (623.15 K), which is very helpful to measure accurate temperatures in cryogenic conditions.
 
 Thermocouples themselves always consist of two different types of metals that are joined together at one end - whether with solder or welding is up to the person. When the soldered end of the thermocouple is heated or cooled a voltage is created that can be associated with a specific temperature.
 
@@ -439,7 +444,7 @@ Full sensor with long thermocouples, connected to copper sensor blocks:
 
 These boards were designed to measure and read out temperatures taken from a PT100 (RTD) sensor, which is transmitted to the Adafruit MAX 31865 boards using a QWIIC JST Conncector. The board itself is designed to lever and flatten the white RTD pad against the surface of an object (as seen in images below). 
 
-The board was designed with a $4-40$ screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up)):
+The board was designed with a 4-40 screw hole in order to lever the PT100 pads onto the surface (in nEXO's case - the Thermosiphon as explained [above](#thermosiphon-set-up)):
 
 
 <img src = "https://user-images.githubusercontent.com/108306069/184951746-3d9781f4-3e90-45ee-a319-53f1975df39f.jpg" width="80%" height="80%" />
@@ -545,7 +550,7 @@ full comparisons:
 - Three Wire cable
 - 4 position cable (digikey)
 
-The PT100 wires are connected to the Adafruit board with a $3$ wire configuration. 
+The PT100 wires are connected to the Adafruit board with a 3 wire configuration. 
 The four position (4P) cable bought from digikey site contains four wires and has two male QWIIC connectors on either side - the length of the wire will need to be cut in half.
 
 ---
@@ -559,9 +564,9 @@ The reason for a 3 wire configuration over simply just having two has to do with
 
 In a three or four wire configuration, the extra third and fourth wires detect the added resistance in the main (1st and 2nd) wires so that we are able to later account for it. 
 However, a four wire configuration is very complicated to put together. 
-Therefore, a $3$ wire config is used. 
+Therefore, a 3 wire config is used. 
 
-With a $3$ wire, we assume that the added resistance in the first wire is the same as what is detected in the third wire.
+With a 3 wire, we assume that the added resistance in the first wire is the same as what is detected in the third wire.
 
 More information on these configurations can be found [<u><big>***here***</u></big>](https://www.omega.com/en-us/resources/rtd-2-3-4-wire-connections)
 
@@ -569,7 +574,7 @@ More information on these configurations can be found [<u><big>***here***</u></b
 
 As seen in the below photos, the blue wire from the 4P cable was folded back, the three left were stripped and tinned.
 
-Three wire braided cable can be used to make the 4P cable longer. For the nEXO group, $25$ inch wire was needed, but the 4P wires were only $6$ inches. Measure and cut needed length as necessary.
+Three wire braided cable can be used to make the 4P cable longer. For the nEXO group, 25 inch wire was needed, but the 4P wires were only 6 inches. Measure and cut needed length as necessary.
 
 ### _**Note**_:
 
@@ -578,7 +583,7 @@ The colors of the three wire cable doesn't matter, but it would be better to fin
 Recommended colors would be - black, red, and white cable. 
 The 4P cable is colored black, red, blue, and yellow, but the blue wire was not used; red to red, black to black, and yellow to white.
 
- The $3$ wire cable was also stripped and tinned, but before soldering them together, make sure heat shrink plastic tubes are put on the individual wires. 
+ The 3 wire cable was also stripped and tinned, but before soldering them together, make sure heat shrink plastic tubes are put on the individual wires. 
  The heat shrink should be think enough to fit over the wire and still have some room to maneuver. 
  It should then be soldered to the 4P cable as seen in the images below.
 
@@ -654,7 +659,7 @@ Circled in blue are both the soldered ends of the 3 wire and 4P QWIIC connectors
 # Test Board
 
 Test boards for the Thermometry sensors boards were built in order to assay the functionality of the Thermometry boards as they were constructed.
-These test boards (as shown in figure \ref{v2testboard}) use five resistors, with a resistance of 100 ohms ($\Omega$). The thermometry sensors - through the Teensy-4.1 - are able to convert this resistance to temperature.
+These test boards (as shown in figure \ref{v2testboard}) use five resistors, with a resistance of 100 ohms (\Omega). The thermometry sensors - through the Teensy-4.1 - are able to convert this resistance to temperature.
 
 Test Board wiring is the exact same as the wiring for the PT100/QWIIC cables found [here](#db15-layout)
 
@@ -758,9 +763,9 @@ Initial check in the evening before being left overnight to fully cool.
 
 <img src = "https://user-images.githubusercontent.com/108306069/185830486-328119ac-515b-4b29-8bd6-fe290bb93bcf.png" width="90%" height="48%" />
 
-Graph of the complete cooldown of the RTD temperatures - stopping to rest at roughly $83$ K to $85$ K
+Graph of the complete cooldown of the RTD temperatures - stopping to rest at roughly 83 K to 85 K
 
-Nitrogen gas was set to flow through the thermosiphon lines to cool the thermosiphon itself. The temperature of N2 is roughly $77$ degrees Kelvin ($-350$ Fahrenheit/$-196$ Celsius). 
+Nitrogen gas was set to flow through the thermosiphon lines to cool the thermosiphon itself. The temperature of N2 is roughly 77 degrees Kelvin (-350 Fahrenheit/-196 Celsius). 
 
 The graph in the second image shows the successful cooldown to Nitrogen Temperature. As shown in the top image, the RTDs (from nEXO) and LZs (from LUX-ZEPPLIN) show matching temperatures. Since we knew that LZ's PT100 sensors did work, to see nEXO's RTDs reading out near identical readings was promising!
 
@@ -772,7 +777,7 @@ The graph in the second image shows the successful cooldown to Nitrogen Temperat
 
 <img src = "https://user-images.githubusercontent.com/108306069/185830624-e4af3d1b-0b02-4ab2-9c18-89e4760b1d4d.jpg" width="50%" height="48%" />
 
-Quick check on thermometry sensors a few days after system's temperature was brought out of $77$ K and let to rise back to room temperature.
+Quick check on thermometry sensors a few days after system's temperature was brought out of 77 K and let to rise back to room temperature.
 
 Both Temperature Sensors that are being used now have their own protective cases.
 
