@@ -48,7 +48,7 @@
 
 ## [Original Github - bungernut/nEXO_Thermometry](https://github.com/bungernut/nEXO_Thermometry)
 
-These sensor boards were built to read and display thermometry data. They were orignialy used for an experiment made by LUX-ZEPPLIN (LZ) to measure data within their cryogenic systems. Later, a group from the n Enriched Xenon Observatory (nEXO) group based their design (with permission) off of the group from LZ. This document details the process of creating the Thermometry Sensor boards for the nEXO experiment at SLAC National Accelerator Laboratory. The boards at nEXO are also used for cryogenic purposes inside of a cryogenic distillation column. 
+These sensor boards were built to read and display thermometry data. They were orignialy used for an experiment made by LUX-ZEPPLIN (LZ) to measure data within their cryogenic systems. Later, a group from the nEXO group based their design (with permission) off of the group from LZ. This document details the process of creating the Thermometry Sensor boards for the nEXO experiment at SLAC National Accelerator Laboratory. The boards at nEXO are also used for cryogenic purposes inside of a cryogenic distillation column. 
 
 The Thermometry Boards are able to detect temperature, pressure, and humidity using five PT100 pads and two thermocouples. The pads are soldered to a small .5" circuit board and connected to the main Thermo board through a series of cables (which will be detailed out below). The small PT100 boards contain a 4-40 sized hole for a small screw, which will allow the boards to be attached to specific places inside of the cryogenic system (more into this later). 
 
