@@ -341,9 +341,12 @@ The order in that I added pieces (this is not the best order to go in).
 
 The individual pins will go in three specific places; one pin in the F- hole, one in the RTD+, and the last in th F+ hole. The front of the Adafruit board has just the F- and F+ label - the RTD+ hole is directly to the left of the F+ slot (see image). The full labels can also be seen on the very back. 
 
-(image)
 
-(image)
+![20220801_084400 copy](https://user-images.githubusercontent.com/108306069/187054805-c953127b-f872-4fbc-a5ba-3dc6903071c7.jpg)
+
+
+![20220727_133949](https://user-images.githubusercontent.com/108306069/187054814-ae1196d0-239b-4c44-93dc-ff568f831fd4.jpg)
+
 
 <img src = "https://user-images.githubusercontent.com/108306069/181175433-eba0cc57-0372-44fe-94a2-c6e2bdbae26a.jpg" width="50%" height="50%" />
 
@@ -362,7 +365,7 @@ The individual pins will go in three specific places; one pin in the F- hole, on
 
 ## MAX31856 - RTD Board
 - The RTD boards (in our version) were modified for a 3 wire configuration.
-- Initially, the connection line on the copper plates - between the 4 and 3 wire pads(image) - needs to be severed.
+- Initially, the connection line on the copper plates - between the 4 and 3 wire pads (ass seen in below images) - needs to be severed.
   - Taking an exact-o knife, the copper line is cut/scraped away.
 
 ## Before
