@@ -801,9 +801,37 @@ After five days, the RTD sensors were once again check to make sure readings wer
 
 **If not used for a cryogenic system, this section can be skipped.**
 
+PT100 cables were connected to an inner vacuum flange (feedthrough).
 
+(image)
 
+Gender changer for the DB15 was welded onto the flange which connects the RTDs from inside of the chamber to a cable outside of the chamber. The outer cable then connects to main thermometry board. 
 
+At nEXO, there was a small issue with the feedthrough connector. 
+The pins at the center were not direct feed throughs.
+In other words, out of 15 pins; pin 15 on the vacuum side of the flange did not directly connect to pin 15 on the open air side.
+The pin connections were flipped; pin 15 connected to pin 9, pin 1 connected to pin 8, etc.
+
+Therefore, if you have soldered the DB15 connector correctly according to the schematic and you are unable to read temperature readouts when the feedthrough flange is connected, this may be your issue.
+
+Fortunately, this is an easy fix. 
+_Un_ fortunately, you will have to solder the DB15 wires backwards. 
+
+The easiest way to do this, is to take another DB15 connector/cable and face the connecting side upwards and have it nearby:
+
+(image)(image)
+
+(image)
+
+The second DB15 connector/cable will be there as a guide to look at as you solder the wires. 
+Instead of following the numbers on the connector you are soldering on, follow the numbers on the other DB15 connector.
+It will be the same soldering methode, except backwards.
+
+After this however, you will no longer be able to test the Thermometry boards without the feedthrough flange as the genderswapper.
+The normal gender swapper doesn't have flipped pins (15 _is_ connected to 15, 8 to 8, etc.).
+
+I suggest having an extra set of QWIIC cables connected to a DB15 that is soldered the normal way. 
+That way if you need to test/assay something on the main thermo sensor board or PT100 board, you won't need the metal flange and extra cable to do so.
 
 
 
