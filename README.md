@@ -807,7 +807,7 @@ PT100 cables were connected to an inner vacuum flange (feedthrough).
 
 Gender changer for the DB15 was welded onto the flange which connects the RTDs from inside of the chamber to a cable outside of the chamber. The outer cable then connects to main thermometry board. 
 
-At nEXO, there was a small issue with the feedthrough connector. 
+In the nEXO system, there was a small issue with the feedthrough connector. 
 The pins at the center were not direct feed throughs.
 In other words, out of 15 pins; pin 15 on the vacuum side of the flange did not directly connect to pin 15 on the open air side.
 The pin connections were flipped; pin 15 connected to pin 9, pin 1 connected to pin 8, etc.
@@ -821,7 +821,7 @@ The easiest way to do this, is to take another DB15 connector/cable and face the
 
 <img src = "https://user-images.githubusercontent.com/108306069/187056149-524d78b9-e832-4bac-9254-4109bac13a32.png" width="50%" /><img src = "https://user-images.githubusercontent.com/108306069/187056152-076542b2-b58a-4527-9cb5-bf3ae0b16c8e.png" width="50%"/>
 
-<img src = "https://user-images.githubusercontent.com/108306069/187056170-518ced56-0bce-42c4-8eab-676649266d0c.png" width="90%" />
+<img src = "https://user-images.githubusercontent.com/108306069/187056170-518ced56-0bce-42c4-8eab-676649266d0c.png" width="110%" />
 
 The second DB15 connector/cable will be there as a guide to look at as you solder the wires. 
 Instead of following the numbers on the connector you are soldering on, follow the numbers on the other DB15 connector.
