@@ -819,9 +819,9 @@ _Un_ fortunately, you will have to solder the DB15 wires backwards.
 
 The easiest way to do this, is to take another DB15 connector/cable and face the connecting side upwards and have it nearby:
 
-(image)(image)
+<img src = "https://user-images.githubusercontent.com/108306069/187056149-524d78b9-e832-4bac-9254-4109bac13a32.png" width="50%" /><img src = "https://user-images.githubusercontent.com/108306069/187056152-076542b2-b58a-4527-9cb5-bf3ae0b16c8e.png" width="50%"/>
 
-(image)
+<img src = "https://user-images.githubusercontent.com/108306069/187056170-518ced56-0bce-42c4-8eab-676649266d0c.png" width="90%" />
 
 The second DB15 connector/cable will be there as a guide to look at as you solder the wires. 
 Instead of following the numbers on the connector you are soldering on, follow the numbers on the other DB15 connector.
