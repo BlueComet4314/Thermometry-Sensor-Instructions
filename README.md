@@ -198,11 +198,11 @@ PT100 sensors are screwed into specific places on the thermosiphon. To test, we 
 
 There are two PT100's from LZ, and four PT100s from nEXO. From now on, I will label the new PT100s as RTD, and the old RTDs as LZ. They are labeled on the Thermosiphon as shown:
 
-##### Front Side view:
+### Front Side view:
 
 <img src="https://user-images.githubusercontent.com/108306069/184040527-e4ccb5d4-3682-4ab1-801c-1d8b744ef3c8.png" width="60%" height="60%" />
 
-##### Back Side view:
+### Back Side view:
 
 <img src="https://user-images.githubusercontent.com/108306069/184040604-15123de5-772b-485e-8ff4-fd65ef4b4c60.png" width="60%" height="60%" />
 
@@ -711,7 +711,37 @@ After plugging in the components, supply power to the board, whether this is a u
 
 [Back to Top](#table-of-contents)
 
-## With PT100s
+## With PT100s attached to a surface
+
+PT100 cables were connected to inner vacuum flange.
+Gender changer for the DB15 was welded onto flange which connects RTDs from inside the vacuum chamber to a cable outside in open air.
+Outer cable connects to main thermometry board.
+
+The PT100 boards themselves are going to be inside the distillation column at SLAC taking in temperature readings.
+
+The boards will be attached to specific places inside of the cryogenic system. As said above, the hole on the PT100 is a type 4-40 for a small screw which levers/flattens the RTD sensor against the surface at any point in the column.
+
+When attaching the sensors, make sure that the boards arent overly tightened. 
+They should be tight enough that the board is snug and does not move when pushed or twisted.
+The RTD sensor should not be so tight against the surface that it gets squished. 
+Tighten the screw until finger tight, then screw one or two more turns.
+Should only be tightened enough that the board is secure and doesn't budge.
+
+<img src = "https://user-images.githubusercontent.com/108306069/184951745-5f80ee6f-18ba-4bc3-85bd-5df7187f7dcd.jpg" width="80%" height="80%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184952451-c3b241d5-560c-49d6-adca-50b395936aa7.jpg" width="60%" height="60%" />
+
+---
+
+<img src = "https://user-images.githubusercontent.com/108306069/184951746-3d9781f4-3e90-45ee-a319-53f1975df39f.jpg" width="80%" height="80%" />
+
+<img src = "https://user-images.githubusercontent.com/108306069/184952454-4f8a7b08-593c-4097-a2c9-51678762b16a.jpg" width="60%" height="60%" />
+
+
+
+
+
+
+
 
 
 [Back to Top](#table-of-contents)
@@ -815,6 +845,8 @@ The pins at the center were not direct feed throughs.
 In other words, out of 15 pins; pin 15 on the vacuum side of the flange did not directly connect to pin 15 on the open air side.
 The pin connections were flipped; pin 15 connected to pin 9, pin 1 connected to pin 8, etc.
 
+You can also test this using a multimeter, setting it to 'Continuity' mode - the mode that makes a sound when there is a charge or current running through. Place one probe on the vacuum pins and the second on the open air pins - testing each vacuum pin with its corresponding open air pin (15 to 15, 8 to 8, 3 to 3, etc.). 
+
 Therefore, if you have soldered the DB15 connector correctly according to the schematic and you are unable to read temperature readouts when the feedthrough flange is connected, this may be your issue.
 
 Fortunately, this is an easy fix. 
@@ -854,6 +886,25 @@ You can pull the old Teensy off and replace it with a new one (once again upload
   It would only briefly light up once the power is supplied, then immediatly go black. 
 
 2. If you have made multiple different thermometry sensors - or even if you have only made one - make sure that you have changed the MAC and I.P. address according to your own system/server, and that they are different from one another.
+
+## Attaching PT100s to a surface
+
+1. If you are attaching the PT100s to a surface and you can't find a short enough screw, sometimes it is easier to use a washer to shorten the length of a long screw. **However, make sure that the washer does not touch any metal or solder on the board.** This could short the small boards and you won't see any temperature readouts. 
+
+
+## Temperature readouts
+
+If you  aren't seeing any temperature readouts:
+1. a short may be an issue. 
+Make sure that there is no metal touching any of the RTD sensors or solder on the small boards. 
+The shorts won't destroy any boards, but it'll cause irregularities in your readings.
+
+2. You may have a problem with the flange as explain in **[the section on the vacuum gender swapper flange here](#flange)**
+
+3. 
+
+## 
+
 
 
 
