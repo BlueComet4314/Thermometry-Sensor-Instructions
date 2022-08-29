@@ -804,7 +804,7 @@ After five days, the RTD sensors were once again check to make sure readings wer
 PT100 cables were connected to an inner vacuum flange (feedthrough).
 
 
-![csm_C-815-VFU1-PIC_53369ca5fcOvtd6Ojx2pz4f](https://user-images.githubusercontent.com/108306069/187113880-1dbe3970-e0e9-4ee3-b43b-248336b42dca.jpeg)
+<img src = "https://user-images.githubusercontent.com/108306069/187113880-1dbe3970-e0e9-4ee3-b43b-248336b42dca.jpeg" width="80%" />
 
 
 
