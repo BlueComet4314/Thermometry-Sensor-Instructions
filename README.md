@@ -803,7 +803,10 @@ After five days, the RTD sensors were once again check to make sure readings wer
 
 PT100 cables were connected to an inner vacuum flange (feedthrough).
 
-(image)
+
+![csm_C-815-VFU1-PIC_53369ca5fcOvtd6Ojx2pz4f](https://user-images.githubusercontent.com/108306069/187113880-1dbe3970-e0e9-4ee3-b43b-248336b42dca.jpeg)
+
+
 
 Gender changer for the DB15 was welded onto the flange which connects the RTDs from inside of the chamber to a cable outside of the chamber. The outer cable then connects to main thermometry board. 
 
