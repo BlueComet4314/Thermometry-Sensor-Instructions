@@ -512,14 +512,21 @@ Only two parts need to be soldered to the PT100 board; the QWIIC connector and t
 There are two small holes where the wires of the RTD will be placed through.
 When placing the wires in, make sure that the white side of the RTD is facing toward the 4-40 hole and the blue side is facing away from it. That way when the pad is bent, the white side will be facing upward.
 
-(IMage)
-(image solder side)
+
+![rtdcircle](https://user-images.githubusercontent.com/108306069/187328559-97d55a6f-ead6-425f-9092-cf5038e788ef.png)
+![soldercircle](https://user-images.githubusercontent.com/108306069/187328528-bc2111ef-0599-4200-858c-76a232db5729.png)
+
 
 Next is the surface mounted QWIIC connector.
 The pins should be soldered in their respective places, including the pins on the back of the connector:
 
-(image)
-(image)
+![QWIIC3](https://user-images.githubusercontent.com/108306069/187330091-14537e7c-eb82-4b9c-b4f1-006334fe13e0.png)
+![QWIIC4](https://user-images.githubusercontent.com/108306069/187330093-1e5f614e-0cc2-460b-bba6-d2e441f382e4.png)
+
+
+
+
+
 
 ### ***Note 1***
 
