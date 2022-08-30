@@ -194,7 +194,11 @@ The thermosiphon acts as an evaporator for the Liquid Xenon Cell in which it is 
 Once the entire distillaiton column is completed, Gaseous Xenon will be pumped into the main chamber (where the Thermosiphon is located) inside of a smaller enclosed space. This is attached directly below the thermosiphon.
 
 
-PT100 sensors are screwed into specific places on the thermosiphon. To test, we used PT100 sensor blocks used by a different experiment - LZ. We compared the new PT100s (RTDs) to the previous ones - with the knowledge that LZ's worked - in order to discern any unusual readings from the new PT100s
+PT100 sensors are screwed into specific places on the thermosiphon. To test, we used PT100 sensor blocks used by a different experiment - LZ. We compared the new PT100s (RTDs) to the previous ones - with the knowledge that LZ's worked - in order to discern any unusual readings from the new PT100s.
+
+### ***Note***
+
+When installing RTDs (or anything) inside of the distillation column, it is a good idea to clean with ethanol on kimwipes.
 
 There are two PT100's from LZ, and four PT100s from nEXO. From now on, I will label the new PT100s as RTD, and the old RTDs as LZ. They are labeled on the Thermosiphon as shown:
 
@@ -500,6 +504,34 @@ Full Set Up
 
 
 
+
+### <u> Instructions:</u>
+
+Only two parts need to be soldered to the PT100 board; the QWIIC connector and the Resistance Temperature Detector (RTD). 
+
+There are two small holes where the wires of the RTD will be placed through.
+When placing the wires in, make sure that the white side of the RTD is facing toward the 4-40 hole and the blue side is facing away from it. That way when the pad is bent, the white side will be facing upward.
+
+(IMage)
+(image solder side)
+
+Next is the surface mounted QWIIC connector.
+The pins should be soldered in their respective places, including the pins on the back of the connector:
+
+(image)
+(image)
+
+### ***Note 1***
+
+Mke sure that the RTD is pulled through the two holes on the PT100 board as far as possible without breaking it.
+When bent, the two wires may still jut out a bit on the copper side of the board, we don't want any metal touching the wires and causing a short (see image):
+
+
+### ***Note 2***
+
+Make sure that the ends of the RTD wires are clipped after you solder. Leaving the wires hanging can also cause a short if they touch any metal.
+
+
 ### <u> Comparisons: </u>
 
 with penny:
@@ -507,9 +539,7 @@ with penny:
 <img src = "https://user-images.githubusercontent.com/108306069/184798241-0bbd25b9-b909-4962-983e-b0059b872fcb.jpg" width="48%" height="48%" />
 <img src = "https://user-images.githubusercontent.com/108306069/184798242-a41971a1-3661-47c6-b173-a4070373a6c7.jpg" width="48%" height="48%" />
 
-<img src = "https://user-images.githubusercontent.com/108306069/184798243-900d006e-df9b-4ceb-81c1-b156dcc14dbd.jpg" width="48%" height="48%" />
-<img src = "https://user-images.githubusercontent.com/108306069/184798244-b7bac9e2-b7d5-40ac-bbb6-55a04a2c51d4.jpg" width="48%" height="48%" />
-<img src = "https://user-images.githubusercontent.com/108306069/184798245-7f464741-0f0c-41e6-a66d-0577741e8255.jpg" width="48%" height="48%" />
+<img src = "https://user-images.githubusercontent.com/108306069/184798243-900d006e-df9b-4ceb-81c1-b156dcc14dbd.jpg" width="48%" height="48%" /> <img src = "https://user-images.githubusercontent.com/108306069/184798245-7f464741-0f0c-41e6-a66d-0577741e8255.jpg" width="48%" height="48%" />
 
 [Back to Top](#table-of-contents)
 
@@ -717,7 +747,9 @@ PT100 cables were connected to inner vacuum flange.
 Gender changer for the DB15 was welded onto flange which connects RTDs from inside the vacuum chamber to a cable outside in open air.
 Outer cable connects to main thermometry board.
 
-The PT100 boards themselves are going to be inside the distillation column at SLAC taking in temperature readings.
+The PT100 boards themselves are going to be inside the distillation column at SLAC taking in temperature readings. 
+
+<big>***Make sure that these PT100s are being cleaned before being placed inside the column***</big>
 
 The boards will be attached to specific places inside of the cryogenic system. As said above, the hole on the PT100 is a type 4-40 for a small screw which levers/flattens the RTD sensor against the surface at any point in the column.
 
@@ -860,10 +892,10 @@ The easiest way to do this, is to take another DB15 connector/cable and face the
 
 The second DB15 connector/cable will be there as a guide to look at as you solder the wires. 
 Instead of following the numbers on the connector you are soldering on, follow the numbers on the other DB15 connector.
-It will be the same soldering methode, except backwards.
+It will be the same soldering method, except backwards.
 
 After this however, you will no longer be able to test the Thermometry boards without the feedthrough flange as the genderswapper.
-The normal gender swapper doesn't have flipped pins (15 _is_ connected to 15, 8 to 8, etc.).
+The normal gender swapper doesn't have flipped pins (15 _is_ connected to 15, 5 to 5, etc.).
 
 I suggest having an extra set of QWIIC cables connected to a DB15 that is soldered the normal way. 
 That way if you need to test/assay something on the main thermo sensor board or PT100 board, you won't need the metal flange and extra cable to do so.
@@ -889,7 +921,9 @@ You can pull the old Teensy off and replace it with a new one (once again upload
 
 ## Attaching PT100s to a surface
 
-1. If you are attaching the PT100s to a surface and you can't find a short enough screw, sometimes it is easier to use a washer to shorten the length of a long screw. **However, make sure that the washer does not touch any metal or solder on the board.** This could short the small boards and you won't see any temperature readouts. 
+1. If you are attaching the PT100s to a surface and you can't find a short enough screw, sometimes it is easier to use a washer to shorten the length of a long screw.
+**However, make sure that the washer does not touch any metal or solder on the board.** 
+This could short the small boards and you won't see any temperature readouts. 
 
 
 ## Temperature readouts
@@ -901,7 +935,7 @@ The shorts won't destroy any boards, but it'll cause irregularities in your read
 
 2. You may have a problem with the flange as explain in **[the section on the vacuum gender swapper flange here](#flange)**
 
-3. 
+
 
 ## 
 
